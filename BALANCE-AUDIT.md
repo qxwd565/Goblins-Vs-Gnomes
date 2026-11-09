@@ -1,5 +1,7 @@
 # 고블린 대 노움 한국 날짜 이력 검증
 
+> 아래는 날짜 스키마 이전 전 감사 기록입니다. 현재 `data/<ID>.json`은 날짜 맵이며, 여기에 기술된 기존 `card`, `patches`, `historicalTextObservations` 원본은 `metadata/<ID>.json`의 `originalSource`에 그대로 보존합니다. 후속 재검증에서 GVG_030/034/048/076의 야수 추가는 25.0(2022-11-30)이 아니라 25.4(2023-02-15 KST)로 바로잡았습니다. 아래 원래 감사 내용과 원본 증거는 보존합니다. 후속 스키마·능력·날짜 재검증과 한계는 [docs/date-schema.md](docs/date-schema.md)를 확인하세요.
+
 ## 범위와 결과
 
 - 기준 main: `a052fc6375439e387040e2f308a0a73eef591bfe`.

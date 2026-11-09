@@ -1,0 +1,77 @@
+{
+  "result": "pass",
+  "sourceCommit": "0149620ba64f983ef09e715452d7581e3870b5fb",
+  "oldPluginBase": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
+  "currentCards": 143,
+  "currentCatalogueByteIdentical": true,
+  "legacyDateCases": 8580,
+  "artURLChecks": 858,
+  "preservedAssetFiles": 762,
+  "missingAssets": 0,
+  "rootHistoryBytes": 7275,
+  "preciseHistoryBytes": 84219,
+  "visibility": "unchanged; no new release/strict gating",
+  "reviewedHistoryCorrections": {
+    "GVG_030": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_034": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_048": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_076": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    }
+  },
+  "correctedLegacyDateCases": 12
+}

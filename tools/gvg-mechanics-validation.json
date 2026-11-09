@@ -1,0 +1,80 @@
+{
+  "result": "pass",
+  "selectedBuilds": 32,
+  "cardNumericTypeClassRaceSchoolAbilityObservations": 4576,
+  "keywordListsReconstructed": 143,
+  "keywordChangesOnExistingSourcedEvents": 8,
+  "knownClientServerDiscrepancies": [
+    {
+      "id": "GVG_123",
+      "build": "27.2.2.185054",
+      "field": "health",
+      "client": 4,
+      "liveCanonical": 3,
+      "reason": "Collection/client fix preceded server hotfix effective2023-09-07 Korea; see date audit."
+    }
+  ],
+  "archiveWeaponHealthEncodings": [
+    {
+      "id": "GVG_024",
+      "build": "32.0.0.217964",
+      "tag": "45",
+      "value": 3
+    },
+    {
+      "id": "GVG_036",
+      "build": "32.0.0.217964",
+      "tag": "45",
+      "value": 2
+    },
+    {
+      "id": "GVG_043",
+      "build": "32.0.0.217964",
+      "tag": "45",
+      "value": 2
+    },
+    {
+      "id": "GVG_054",
+      "build": "32.0.0.217964",
+      "tag": "45",
+      "value": 2
+    },
+    {
+      "id": "GVG_059",
+      "build": "32.0.0.217964",
+      "tag": "45",
+      "value": 3
+    },
+    {
+      "id": "GVG_024",
+      "build": "37.0.2.256589",
+      "tag": "45",
+      "value": 3
+    },
+    {
+      "id": "GVG_036",
+      "build": "37.0.2.256589",
+      "tag": "45",
+      "value": 2
+    },
+    {
+      "id": "GVG_043",
+      "build": "37.0.2.256589",
+      "tag": "45",
+      "value": 2
+    },
+    {
+      "id": "GVG_054",
+      "build": "37.0.2.256589",
+      "tag": "45",
+      "value": 2
+    },
+    {
+      "id": "GVG_059",
+      "build": "37.0.2.256589",
+      "tag": "45",
+      "value": 3
+    }
+  ],
+  "scope": "Bounded client observations with explicit interpretation, not exhaustive every-build, text or rule-engine verification."
+}

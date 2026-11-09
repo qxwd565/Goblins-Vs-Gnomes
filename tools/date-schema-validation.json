@@ -1,0 +1,1626 @@
+{
+  "result": "pass",
+  "sourceCommit": "0149620ba64f983ef09e715452d7581e3870b5fb",
+  "cards": 143,
+  "sourceDocumentsPreserved": 143,
+  "events": 55,
+  "releaseDatesVerified": 143,
+  "partialExactInitialTexts": 99,
+  "baselineFullyVerified": 0,
+  "globalDateSamples": 60,
+  "exactSourceAndTransportChecks": 8580,
+  "types": {
+    "SPELL": 38,
+    "MINION": 100,
+    "WEAPON": 5
+  },
+  "historyDateCorrections": {
+    "GVG_030": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_034": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_048": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_076": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    }
+  },
+  "preservedChooseOneBooleans": {
+    "true": 3,
+    "false": 140
+  },
+  "reconstructedKeywordLists": 143,
+  "keywordDeltasAddedToExistingEvents": 8,
+  "preservedPriorEvidenceFiles": [
+    "golden/cards/GVG_001.json",
+    "golden/cards/GVG_002.json",
+    "golden/cards/GVG_003.json",
+    "golden/cards/GVG_004.json",
+    "golden/cards/GVG_005.json",
+    "golden/cards/GVG_006.json",
+    "golden/cards/GVG_007.json",
+    "golden/cards/GVG_008.json",
+    "golden/cards/GVG_009.json",
+    "golden/cards/GVG_010.json",
+    "golden/cards/GVG_011.json",
+    "golden/cards/GVG_012.json",
+    "golden/cards/GVG_013.json",
+    "golden/cards/GVG_014.json",
+    "golden/cards/GVG_015.json",
+    "golden/cards/GVG_016.json",
+    "golden/cards/GVG_017.json",
+    "golden/cards/GVG_018.json",
+    "golden/cards/GVG_019.json",
+    "golden/cards/GVG_020.json",
+    "golden/cards/GVG_021.json",
+    "golden/cards/GVG_022.json",
+    "golden/cards/GVG_023.json",
+    "golden/cards/GVG_024.json",
+    "golden/cards/GVG_025.json",
+    "golden/cards/GVG_026.json",
+    "golden/cards/GVG_027.json",
+    "golden/cards/GVG_028.json",
+    "golden/cards/GVG_028t.json",
+    "golden/cards/GVG_029.json",
+    "golden/cards/GVG_030.json",
+    "golden/cards/GVG_030a.json",
+    "golden/cards/GVG_030b.json",
+    "golden/cards/GVG_031.json",
+    "golden/cards/GVG_032.json",
+    "golden/cards/GVG_032a.json",
+    "golden/cards/GVG_032b.json",
+    "golden/cards/GVG_033.json",
+    "golden/cards/GVG_034.json",
+    "golden/cards/GVG_035.json",
+    "golden/cards/GVG_036.json",
+    "golden/cards/GVG_037.json",
+    "golden/cards/GVG_038.json",
+    "golden/cards/GVG_039.json",
+    "golden/cards/GVG_040.json",
+    "golden/cards/GVG_041.json",
+    "golden/cards/GVG_041a.json",
+    "golden/cards/GVG_041b.json",
+    "golden/cards/GVG_042.json",
+    "golden/cards/GVG_043.json",
+    "golden/cards/GVG_044.json",
+    "golden/cards/GVG_045.json",
+    "golden/cards/GVG_045t.json",
+    "golden/cards/GVG_046.json",
+    "golden/cards/GVG_047.json",
+    "golden/cards/GVG_048.json",
+    "golden/cards/GVG_049.json",
+    "golden/cards/GVG_050.json",
+    "golden/cards/GVG_051.json",
+    "golden/cards/GVG_052.json",
+    "golden/cards/GVG_053.json",
+    "golden/cards/GVG_054.json",
+    "golden/cards/GVG_055.json",
+    "golden/cards/GVG_056.json",
+    "golden/cards/GVG_056t.json",
+    "golden/cards/GVG_057.json",
+    "golden/cards/GVG_058.json",
+    "golden/cards/GVG_059.json",
+    "golden/cards/GVG_060.json",
+    "golden/cards/GVG_061.json",
+    "golden/cards/GVG_062.json",
+    "golden/cards/GVG_063.json",
+    "golden/cards/GVG_064.json",
+    "golden/cards/GVG_065.json",
+    "golden/cards/GVG_066.json",
+    "golden/cards/GVG_067.json",
+    "golden/cards/GVG_068.json",
+    "golden/cards/GVG_069.json",
+    "golden/cards/GVG_070.json",
+    "golden/cards/GVG_071.json",
+    "golden/cards/GVG_072.json",
+    "golden/cards/GVG_073.json",
+    "golden/cards/GVG_074.json",
+    "golden/cards/GVG_075.json",
+    "golden/cards/GVG_076.json",
+    "golden/cards/GVG_077.json",
+    "golden/cards/GVG_078.json",
+    "golden/cards/GVG_079.json",
+    "golden/cards/GVG_080.json",
+    "golden/cards/GVG_080t.json",
+    "golden/cards/GVG_081.json",
+    "golden/cards/GVG_082.json",
+    "golden/cards/GVG_083.json",
+    "golden/cards/GVG_084.json",
+    "golden/cards/GVG_085.json",
+    "golden/cards/GVG_086.json",
+    "golden/cards/GVG_087.json",
+    "golden/cards/GVG_088.json",
+    "golden/cards/GVG_089.json",
+    "golden/cards/GVG_090.json",
+    "golden/cards/GVG_091.json",
+    "golden/cards/GVG_092.json",
+    "golden/cards/GVG_092t.json",
+    "golden/cards/GVG_093.json",
+    "golden/cards/GVG_094.json",
+    "golden/cards/GVG_095.json",
+    "golden/cards/GVG_096.json",
+    "golden/cards/GVG_097.json",
+    "golden/cards/GVG_098.json",
+    "golden/cards/GVG_099.json",
+    "golden/cards/GVG_100.json",
+    "golden/cards/GVG_101.json",
+    "golden/cards/GVG_102.json",
+    "golden/cards/GVG_103.json",
+    "golden/cards/GVG_104.json",
+    "golden/cards/GVG_105.json",
+    "golden/cards/GVG_106.json",
+    "golden/cards/GVG_107.json",
+    "golden/cards/GVG_108.json",
+    "golden/cards/GVG_109.json",
+    "golden/cards/GVG_110.json",
+    "golden/cards/GVG_110t.json",
+    "golden/cards/GVG_111.json",
+    "golden/cards/GVG_111t.json",
+    "golden/cards/GVG_112.json",
+    "golden/cards/GVG_113.json",
+    "golden/cards/GVG_114.json",
+    "golden/cards/GVG_115.json",
+    "golden/cards/GVG_116.json",
+    "golden/cards/GVG_117.json",
+    "golden/cards/GVG_118.json",
+    "golden/cards/GVG_119.json",
+    "golden/cards/GVG_120.json",
+    "golden/cards/GVG_121.json",
+    "golden/cards/GVG_122.json",
+    "golden/cards/GVG_123.json",
+    "golden/cards/PART_001.json",
+    "golden/cards/PART_002.json",
+    "golden/cards/PART_003.json",
+    "golden/cards/PART_004.json",
+    "golden/cards/PART_005.json",
+    "golden/cards/PART_006.json",
+    "golden/cards/PART_007.json",
+    "golden/index.json",
+    "manifest.json",
+    "release-policy.json",
+    "tools/gvg-audit-sources.json",
+    "tools/gvg-client-numeric.json",
+    "tools/gvg-current-fixtures.json",
+    "tools/gvg-release-audit.json"
+  ],
+  "projectionChanges": [
+    {
+      "id": "GVG_001",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_002",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_003",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_004",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_005",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_006",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_007",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_008",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_009",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_010",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_011",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_012",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_013",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_014",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_015",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_016",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_017",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_018",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_019",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_020",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_021",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_022",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_023",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_024",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "health": 3,
+        "armor": 0
+      }
+    },
+    {
+      "id": "GVG_025",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_026",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_027",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_028",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_028t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_029",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_030",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_030a",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_030b",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_031",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_032",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_032a",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_032b",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_033",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_034",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_035",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_036",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "health": 2,
+        "armor": 0
+      }
+    },
+    {
+      "id": "GVG_037",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_038",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_039",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_040",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_041",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_041a",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_041b",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_042",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_043",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "health": 2,
+        "armor": 0
+      }
+    },
+    {
+      "id": "GVG_044",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_045",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_045t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_046",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_047",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_048",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_049",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_050",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_051",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_052",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_053",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_054",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "health": 2,
+        "armor": 0
+      }
+    },
+    {
+      "id": "GVG_055",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_056",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_056t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_057",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_058",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_059",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "health": 3,
+        "armor": 0
+      }
+    },
+    {
+      "id": "GVG_060",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_061",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_062",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_063",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_064",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_065",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_066",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_067",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_068",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_069",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_070",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_071",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_072",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_073",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_074",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_075",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_076",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_077",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_078",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_079",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_080",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_080t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_081",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_082",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_083",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_084",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_085",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_086",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_087",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_088",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_089",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_090",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_091",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_092",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_092t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_093",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_094",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_095",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_096",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_097",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_098",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_099",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_100",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_101",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_102",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_103",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_104",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_105",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_106",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_107",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_108",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_109",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_110",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_110t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_111",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_111t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_112",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_113",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_114",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_115",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_116",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_117",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_118",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_119",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_120",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_121",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_122",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "GVG_123",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "PART_001",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "PART_002",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "PART_003",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "PART_004",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "PART_005",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "PART_006",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "PART_007",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    }
+  ],
+  "presenceFixturesPassed": true
+}

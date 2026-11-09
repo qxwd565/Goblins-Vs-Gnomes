@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Druid of the Fang",
-  "card": {
+  "2014-12-10": {
     "id": "GVG_080t",
     "dbfId": 2230,
     "name": "송곳니의 드루이드",
@@ -10,90 +7,16 @@
     "type": "MINION",
     "cardClass": "DRUID",
     "classes": [],
-    "nativeSetId": 13,
-    "set": "GVG",
     "rarity": null,
     "race": "야수",
     "races": [
       "BEAST"
     ],
-    "spellSchool": "",
     "cost": 5,
     "attack": 7,
     "health": 7,
-    "armor": 0,
-    "durability": 0,
     "collectible": false,
     "chooseOne": false,
-    "installed": true,
-    "portrait": "W5_177_D.psd:e9ab96952b2f57d4c8c7e26830850f28",
-    "flavor": "",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 7
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 7
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      }
-    ],
-    "nativeRawText": "",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2014-12-10",
-    "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "partially_verified",
-    "patchSources": {}
-  },
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 13,
-    "slug": "goblins-vs-gnomes",
-    "name": "고블린 대 노움",
-    "type": "expansion",
-    "englishName": "Goblins Vs Gnomes"
-  },
-  "setOrder": 41,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "2.0.0.7234",
-      "name": "송곳니의 드루이드",
-      "rawText": "",
-      "source": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml",
-      "lastObservedBuild": "37.0.2.256589"
-    }
-  ]
+    "mechanics": []
+  }
 }

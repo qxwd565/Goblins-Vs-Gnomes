@@ -1,0 +1,194 @@
+[
+  {
+    "label": "release",
+    "build": "7234",
+    "entityAttributes": {
+      "CardID": "GVG_111t",
+      "ID": "2232",
+      "version": "2"
+    },
+    "Tag": [
+      {
+        "enumID": "185",
+        "name": "CARDNAME",
+        "type": "LocString",
+        "localizations": {
+          "enUS": "V-07-TR-0N",
+          "koKR": "V-07-TR-0N"
+        }
+      },
+      {
+        "enumID": "184",
+        "name": "CARDTEXT_INHAND",
+        "type": "LocString",
+        "localizations": {
+          "enUS": "<b>Charge</b>\n<b>Mega-Windfury</b> <i>(Can attack four times a turn.)</i>",
+          "koKR": "<b>돌진</b>\n<b>광풍</b> <i>(한 턴에 4번 공격 가능)</i>"
+        }
+      },
+      {
+        "enumID": "342",
+        "name": "ARTISTNAME",
+        "type": "String"
+      },
+      {
+        "enumID": "45",
+        "name": "HEALTH",
+        "type": "Int",
+        "value": "8"
+      },
+      {
+        "enumID": "47",
+        "name": "ATK",
+        "type": "Int",
+        "value": "4"
+      },
+      {
+        "enumID": "48",
+        "name": "COST",
+        "type": "Int",
+        "value": "8"
+      },
+      {
+        "enumID": "114",
+        "name": "ELITE",
+        "type": "Int",
+        "value": "1"
+      },
+      {
+        "enumID": "183",
+        "name": "CARD_SET",
+        "type": "Int",
+        "value": "13"
+      },
+      {
+        "enumID": "197",
+        "name": "CHARGE",
+        "type": "Int",
+        "value": "1"
+      },
+      {
+        "enumID": "200",
+        "name": "CARDRACE",
+        "type": "Int",
+        "value": "17"
+      },
+      {
+        "enumID": "202",
+        "name": "CARDTYPE",
+        "type": "Int",
+        "value": "4"
+      },
+      {
+        "enumID": "203",
+        "name": "RARITY",
+        "type": "Int",
+        "value": "5"
+      }
+    ],
+    "ReferencedTag": [],
+    "otherChildren": [
+      "<Power definition=\"267faae1-2af0-49f7-8a67-b2141a3ea569\" />\n\t\t",
+      "<Power definition=\"1dc94c8d-60ee-43ff-b4fc-be98fe266f0e\" />\n\t"
+    ],
+    "source": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+  },
+  {
+    "label": "current",
+    "build": "256589",
+    "entityAttributes": {
+      "CardID": "GVG_111t",
+      "ID": "2232",
+      "version": "2"
+    },
+    "Tag": [
+      {
+        "enumID": "185",
+        "name": "CARDNAME",
+        "type": "LocString",
+        "localizations": {
+          "enUS": "V-07-TR-0N",
+          "koKR": "V-07-TR-0N"
+        }
+      },
+      {
+        "enumID": "184",
+        "name": "CARDTEXT",
+        "type": "LocString",
+        "localizations": {
+          "enUS": "<b>Charge</b>\n<b>Mega-Windfury</b>",
+          "koKR": "<b>돌진</b>\n<b>광풍</b>"
+        }
+      },
+      {
+        "enumID": "342",
+        "name": "ARTISTNAME",
+        "type": "String"
+      },
+      {
+        "enumID": "45",
+        "name": "HEALTH",
+        "type": "Int",
+        "value": "8"
+      },
+      {
+        "enumID": "47",
+        "name": "ATK",
+        "type": "Int",
+        "value": "4"
+      },
+      {
+        "enumID": "48",
+        "name": "COST",
+        "type": "Int",
+        "value": "8"
+      },
+      {
+        "enumID": "114",
+        "name": "ELITE",
+        "type": "Int",
+        "value": "1"
+      },
+      {
+        "enumID": "183",
+        "name": "CARD_SET",
+        "type": "Int",
+        "value": "13"
+      },
+      {
+        "enumID": "197",
+        "name": "CHARGE",
+        "type": "Int",
+        "value": "1"
+      },
+      {
+        "enumID": "199",
+        "name": "CLASS",
+        "type": "Int",
+        "value": "12"
+      },
+      {
+        "enumID": "200",
+        "name": "CARDRACE",
+        "type": "Int",
+        "value": "17"
+      },
+      {
+        "enumID": "202",
+        "name": "CARDTYPE",
+        "type": "Int",
+        "value": "4"
+      }
+    ],
+    "ReferencedTag": [
+      {
+        "enumID": "1207",
+        "name": "MEGA_WINDFURY",
+        "type": "Int",
+        "value": "1"
+      }
+    ],
+    "otherChildren": [],
+    "source": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml"
+  }
+]

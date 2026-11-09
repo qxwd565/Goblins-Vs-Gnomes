@@ -1,0 +1,411 @@
+{
+  "schema": 1,
+  "vocabulary": "Recognized intrinsic keyword abilities and concrete targeting restrictions only; no claim to encode every free-text effect. Empty list means no recognized keyword ability, not no card effect. Implementation indicators AURA/TRIGGER_VISUAL and targeting/category metadata are observed separately.",
+  "source": "tools/gvg-mechanics-evidence.json",
+  "baseline": {
+    "GVG_001": [],
+    "GVG_002": [
+      "FREEZE"
+    ],
+    "GVG_003": [],
+    "GVG_004": [
+      "BATTLECRY"
+    ],
+    "GVG_005": [],
+    "GVG_006": [],
+    "GVG_007": [],
+    "GVG_008": [],
+    "GVG_009": [
+      "BATTLECRY"
+    ],
+    "GVG_010": [],
+    "GVG_011": [
+      "BATTLECRY"
+    ],
+    "GVG_012": [],
+    "GVG_013": [],
+    "GVG_014": [
+      "BATTLECRY"
+    ],
+    "GVG_015": [],
+    "GVG_016": [],
+    "GVG_017": [],
+    "GVG_018": [],
+    "GVG_019": [],
+    "GVG_020": [],
+    "GVG_021": [],
+    "GVG_022": [
+      "COMBO"
+    ],
+    "GVG_023": [
+      "BATTLECRY"
+    ],
+    "GVG_024": [],
+    "GVG_025": [],
+    "GVG_026": [],
+    "GVG_027": [],
+    "GVG_028": [],
+    "GVG_028t": [],
+    "GVG_029": [],
+    "GVG_030": [
+      "TAUNT",
+      "CHOOSE_ONE"
+    ],
+    "GVG_030a": [],
+    "GVG_030b": [],
+    "GVG_031": [],
+    "GVG_032": [
+      "CHOOSE_ONE"
+    ],
+    "GVG_032a": [],
+    "GVG_032b": [],
+    "GVG_033": [],
+    "GVG_034": [],
+    "GVG_035": [
+      "DEATHRATTLE"
+    ],
+    "GVG_036": [
+      "DEATHRATTLE"
+    ],
+    "GVG_037": [
+      "WINDFURY"
+    ],
+    "GVG_038": [
+      "OVERLOAD"
+    ],
+    "GVG_039": [],
+    "GVG_040": [
+      "OVERLOAD"
+    ],
+    "GVG_041": [
+      "CHOOSE_ONE"
+    ],
+    "GVG_041a": [],
+    "GVG_041b": [],
+    "GVG_042": [
+      "BATTLECRY",
+      "OVERLOAD"
+    ],
+    "GVG_043": [
+      "BATTLECRY"
+    ],
+    "GVG_044": [],
+    "GVG_045": [],
+    "GVG_045t": [],
+    "GVG_046": [
+      "TAUNT",
+      "BATTLECRY"
+    ],
+    "GVG_047": [
+      "COMBO"
+    ],
+    "GVG_048": [
+      "BATTLECRY"
+    ],
+    "GVG_049": [],
+    "GVG_050": [],
+    "GVG_051": [
+      "ENRAGED"
+    ],
+    "GVG_052": [],
+    "GVG_053": [
+      "BATTLECRY"
+    ],
+    "GVG_054": [],
+    "GVG_055": [
+      "BATTLECRY"
+    ],
+    "GVG_056": [
+      "BATTLECRY"
+    ],
+    "GVG_056t": [],
+    "GVG_057": [],
+    "GVG_058": [
+      "DIVINE_SHIELD"
+    ],
+    "GVG_059": [
+      "BATTLECRY"
+    ],
+    "GVG_060": [
+      "BATTLECRY"
+    ],
+    "GVG_061": [],
+    "GVG_062": [],
+    "GVG_063": [],
+    "GVG_064": [],
+    "GVG_065": [],
+    "GVG_066": [
+      "WINDFURY",
+      "OVERLOAD"
+    ],
+    "GVG_067": [],
+    "GVG_068": [],
+    "GVG_069": [
+      "BATTLECRY"
+    ],
+    "GVG_070": [],
+    "GVG_071": [],
+    "GVG_072": [],
+    "GVG_073": [],
+    "GVG_074": [
+      "BATTLECRY"
+    ],
+    "GVG_075": [],
+    "GVG_076": [
+      "DEATHRATTLE"
+    ],
+    "GVG_077": [],
+    "GVG_078": [
+      "DEATHRATTLE"
+    ],
+    "GVG_079": [
+      "DIVINE_SHIELD"
+    ],
+    "GVG_080": [
+      "BATTLECRY"
+    ],
+    "GVG_080t": [],
+    "GVG_081": [
+      "STEALTH"
+    ],
+    "GVG_082": [
+      "DEATHRATTLE"
+    ],
+    "GVG_083": [
+      "BATTLECRY"
+    ],
+    "GVG_084": [
+      "WINDFURY"
+    ],
+    "GVG_085": [
+      "TAUNT",
+      "DIVINE_SHIELD"
+    ],
+    "GVG_086": [],
+    "GVG_087": [],
+    "GVG_088": [
+      "STEALTH"
+    ],
+    "GVG_089": [],
+    "GVG_090": [
+      "BATTLECRY"
+    ],
+    "GVG_091": [
+      "TAUNT",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CANT_BE_TARGETED_BY_HERO_POWERS"
+    ],
+    "GVG_092": [
+      "BATTLECRY"
+    ],
+    "GVG_092t": [],
+    "GVG_093": [
+      "TAUNT"
+    ],
+    "GVG_094": [],
+    "GVG_095": [],
+    "GVG_096": [
+      "DEATHRATTLE"
+    ],
+    "GVG_097": [
+      "TAUNT",
+      "BATTLECRY"
+    ],
+    "GVG_098": [
+      "TAUNT",
+      "CHARGE"
+    ],
+    "GVG_099": [
+      "BATTLECRY"
+    ],
+    "GVG_100": [],
+    "GVG_101": [
+      "BATTLECRY"
+    ],
+    "GVG_102": [
+      "BATTLECRY"
+    ],
+    "GVG_103": [],
+    "GVG_104": [],
+    "GVG_105": [
+      "DEATHRATTLE"
+    ],
+    "GVG_106": [],
+    "GVG_107": [
+      "BATTLECRY"
+    ],
+    "GVG_108": [
+      "BATTLECRY"
+    ],
+    "GVG_109": [
+      "STEALTH",
+      "SPELLPOWER"
+    ],
+    "GVG_110": [
+      "BATTLECRY"
+    ],
+    "GVG_110t": [
+      "DEATHRATTLE"
+    ],
+    "GVG_111": [],
+    "GVG_111t": [
+      "CHARGE",
+      "MEGA_WINDFURY"
+    ],
+    "GVG_112": [],
+    "GVG_113": [],
+    "GVG_114": [
+      "DEATHRATTLE"
+    ],
+    "GVG_115": [
+      "DEATHRATTLE",
+      "BATTLECRY"
+    ],
+    "GVG_116": [],
+    "GVG_117": [],
+    "GVG_118": [],
+    "GVG_119": [
+      "BATTLECRY"
+    ],
+    "GVG_120": [
+      "BATTLECRY"
+    ],
+    "GVG_121": [],
+    "GVG_122": [],
+    "GVG_123": [
+      "SPELLPOWER"
+    ],
+    "PART_001": [],
+    "PART_002": [],
+    "PART_003": [],
+    "PART_004": [],
+    "PART_005": [
+      "FREEZE"
+    ],
+    "PART_006": [],
+    "PART_007": []
+  },
+  "events": {
+    "GVG_018": {
+      "2017-08-09": [
+        "LIFESTEAL"
+      ]
+    },
+    "GVG_051": {
+      "2018-04-11": []
+    },
+    "GVG_056t": {
+      "2018-10-03": [
+        "CASTS_WHEN_DRAWN"
+      ]
+    },
+    "GVG_007": {
+      "2023-08-23": [
+        "RUSH"
+      ]
+    },
+    "GVG_046": {
+      "2023-08-23": [
+        "TAUNT"
+      ]
+    },
+    "GVG_056": {
+      "2023-08-23": [
+        "DEATHRATTLE",
+        "BATTLECRY"
+      ]
+    },
+    "GVG_123": {
+      "2023-08-23": [
+        "SPELLPOWER",
+        "BATTLECRY"
+      ]
+    },
+    "GVG_091": {
+      "2024-03-12": [
+        "TAUNT",
+        "ELUSIVE"
+      ]
+    }
+  },
+  "exceptions": {
+    "GVG_111t": "Release Korean text explicitly describes Mega-Windfury (four attacks), and all29 observations retain its own keyword. Neither189 nor1207 is an actual Tag in release/current. Current ReferencedTag1207 is corroboration, not sole evidence. See tools/gvg-voltron-extract.json.",
+    "GVG_051": "ENRAGED tag persists after the named keyword was retired on 2018-04-11. The conditional attack effect persists in text; this list tracks keyword presentation, not effect removal.",
+    "GVG_056t": "Casts When Drawn keyword is present in the 12.2 Korean text and the existing sourced 2018-10-03 event before a dedicated1077 tag appears in sampled20.0.",
+    "GVG_007": "Later1077 is an implementation tag for the unchanged draw-triggered effect; this minion does not display or intrinsically cast the Casts When Drawn spell keyword. Do not infer a new patch date from the tag.",
+    "GVG_091": "The2024-03-12 Elusive keyword replaces the two explicit targeting restrictions; rule behavior is unchanged.",
+    "GVG_122": "Its text grants Elusive to adjacent minions; it never has intrinsic Elusive.",
+    "GVG_030": "The card’s own release and retained Korean text explicitly displays Choose One. Release actual Tag443 is absent; later Tag443 and the original source chooseOne:true corroborate the parent ability. The six generated choice-option entities have chooseOne:false. This is not a grant/reference to another target.",
+    "GVG_032": "The card’s own release and retained Korean text explicitly displays Choose One. Release actual Tag443 is absent; later Tag443 and the original source chooseOne:true corroborate the parent ability. The six generated choice-option entities have chooseOne:false. This is not a grant/reference to another target.",
+    "GVG_041": "The card’s own release and retained Korean text explicitly displays Choose One. Release actual Tag443 is absent; later Tag443 and the original source chooseOne:true corroborate the parent ability. The six generated choice-option entities have chooseOne:false. This is not a grant/reference to another target."
+  },
+  "eventSources": {
+    "2017-08-09": {
+      "ids": [
+        "GVG_018"
+      ],
+      "date": "2017-08-09",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/20944006",
+      "finding": "9.0 Korean note datedAug9 explicitly names Mistress of Pain Lifesteal; expansion launchesAug11 separately. Healing pre-existed, but Auchenai-like interaction loops were changed to one trigger."
+    },
+    "2018-04-11": {
+      "ids": [
+        "GVG_051"
+      ],
+      "date": "2018-04-11",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/21694420",
+      "finding": "Explicit Enrage keyword retirement, effect unchanged; separateApril13 expansion."
+    },
+    "2018-10-03": {
+      "ids": [
+        "GVG_056t"
+      ],
+      "date": "2018-10-03",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/22546493",
+      "finding": "Explicitly names Burrowing Mine and Casts When Drawn;12.2 text/reference marker precedes dedicated1077 actual tag."
+    },
+    "2023-08-23": {
+      "ids": [
+        "GVG_007",
+        "GVG_046",
+        "GVG_056",
+        "GVG_123"
+      ],
+      "date": "2023-08-23",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+      "finding": "27.2 changes already-owned originals, distinctSeptember1 Caverns release. Original-ID actual tags corroborate Rush addition, Battlecry removal, Deathrattle addition and Battlecry addition."
+    },
+    "2024-03-12": {
+      "ids": [
+        "GVG_091",
+        "GVG_122"
+      ],
+      "date": "2024-03-12",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24056182",
+        "https://hearthstone.blizzard.com/ko-kr/news/24064735",
+        "https://github.com/HearthSim/hsdata/blob/e072e5d302a93dc6fb33542e7c528ae4d39560f0/CardDefs.xml"
+      ],
+      "finding": "Keyword definition plus29.0 effectiveMarch12 and archive.29.0 notes do not name these2directly. Nullifier actual1211; Wee Spellstopper onlyReferencedTag1211.28.6 retains prior targeting restrictions."
+    }
+  },
+  "chooseOneFieldEvidence": {
+    "source": "Each immutable originalSource.card.chooseOne, compared with the latest actualTag443 in tools/gvg-mechanics-evidence.json",
+    "matchingSourceBooleans": 143,
+    "trueParents": [
+      "GVG_030",
+      "GVG_032",
+      "GVG_041"
+    ],
+    "falseSourceRecords": 140,
+    "choiceOptionValues": {
+      "GVG_030a": false,
+      "GVG_030b": false,
+      "GVG_032a": false,
+      "GVG_032b": false,
+      "GVG_041a": false,
+      "GVG_041b": false
+    },
+    "oldCurrentCatalogPresence": "Absent on all143 records; no false field in the old root catalog."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "scope": "GvG143 existing IDs only; targeted independent date recheck, not every historical patch.",
+  "sourceCommit": "0149620ba64f983ef09e715452d7581e3870b5fb",
+  "timezone": "Asia/Seoul",
+  "dateBasis": "User-selected actual Korean normal constructed-match availability; early Arena, demos and client preload are separate.",
+  "dateScopeDecision": {
+    "status": "confirmed",
+    "dateChangesRequired": true
+  },
+  "release": {
+    "date": "2014-12-10",
+    "affectedIDs": 143,
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://hearthstone.blizzard.com/ko-kr/news/17076851",
+        "finding": "Official Korean live-release announcement dated2014-12-10."
+      },
+      {
+        "url": "https://hearthstone.blizzard.com/ko-kr/news/16960836",
+        "finding": "Official announcement amended scheduledDecember9 launch toDecember10."
+      },
+      {
+        "url": "https://hearthstone.blizzard.com/ko-kr/news/16960844",
+        "finding": "Early Arena preview is separate; acquisition/crafting startsDecember10."
+      }
+    ]
+  },
+  "highRiskDates": [
+    {
+      "id": "GVG_006",
+      "dbfId": 1940,
+      "date": "2024-03-12",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/24064735",
+      "finding": "29.0 body explicitly saysMarch12 for4-mana4/4; notMarch11 publication header orMarch20 rotation."
+    },
+    {
+      "id": "GVG_114",
+      "dbfId": 2082,
+      "date": "2025-03-19",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/24187196",
+      "finding": "Original32.0 CardDefs has cost7, distinct Core copy120575. Announcement explicitly applies changesMarch19, notMarch26 rotation."
+    },
+    {
+      "id": "GVG_053",
+      "dbfId": 2021,
+      "date": "2021-05-13",
+      "source": "https://www.inven.co.kr/board/hs/3508/17714?p=68",
+      "finding": "Contemporary Korean report2021-05-13 01:01; original20.2.2 CardDefs cost5, distinct Core copy69741."
+    },
+    {
+      "id": "GVG_123",
+      "dbfId": 2249,
+      "date": "2023-09-07",
+      "sources": [
+        "https://us.forums.blizzard.com/en/hearthstone/t/272-known-issues/112122",
+        "https://us.forums.blizzard.com/en/hearthstone/t/2723-patch-notes/113008",
+        "https://www.inven.co.kr/board/hs/3508?mskin=&p=31"
+      ],
+      "finding": "Original27.2 has health3 while WON_033 DBF102558 has4.27.2.2 client health4 is not in-game proof. September5 US collection/client fix still wrong in-game, September6 US server hotfix indexedSeptember7 Korea. Preserve existing KSTdate."
+    }
+  ],
+  "pending": [
+    {
+      "id": "GVG_075",
+      "field": "cosmetic text",
+      "range": "4.1",
+      "reason": "Exact KSTdate unresolved: migrated official URL/headerDecember5 vs contemporary Inven148025December6. No dated patch invented."
+    },
+    {
+      "id": "GVG_111t",
+      "field": "rarity",
+      "reason": "Raw release through9.0 tag203=5, absent from10.0. Exact date/display semantics unresolved; original null retained provisionally, not asserted as historical absence."
+    }
+  ],
+  "formatLegality": [
+    {
+      "id": "GVG_006",
+      "format": "Wild",
+      "date": "2023-09-29",
+      "status": "banned",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23999072",
+        "https://www.inven.co.kr/board/hs/3508/20029"
+      ],
+      "evidence": "27.4.2 official notes and Korean report timestamp2023-09-29 04:01."
+    },
+    {
+      "id": "GVG_006",
+      "format": "Wild",
+      "date": "2024-03-12",
+      "status": "unbanned",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24064735"
+      ],
+      "evidence": "29.0 balance and Wild unban."
+    }
+  ],
+  "legalityScope": "Format-specific observations only. No universal card hiding, no inferred all-format unavailability and no changes to numeric patches.",
+  "conclusion": "All143 Korean constructed release dates remain2014-12-10. Correct4secondary-race event dates from2022-11-30 to2023-02-15; preserve all55events and immutable prior source evidence. Other targeted numerical/keyword dates remain unchanged.",
+  "keywordDateRechecks": [
+    {
+      "ids": [
+        "GVG_018"
+      ],
+      "date": "2017-08-09",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/20944006",
+      "finding": "9.0 Korean note datedAug9 explicitly names Mistress of Pain Lifesteal; expansion launchesAug11 separately. Healing pre-existed, but Auchenai-like interaction loops were changed to one trigger."
+    },
+    {
+      "ids": [
+        "GVG_051"
+      ],
+      "date": "2018-04-11",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/21694420",
+      "finding": "Explicit Enrage keyword retirement, effect unchanged; separateApril13 expansion."
+    },
+    {
+      "ids": [
+        "GVG_056t"
+      ],
+      "date": "2018-10-03",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/22546493",
+      "finding": "Explicitly names Burrowing Mine and Casts When Drawn;12.2 text/reference marker precedes dedicated1077 actual tag."
+    },
+    {
+      "ids": [
+        "GVG_007",
+        "GVG_046",
+        "GVG_056",
+        "GVG_123"
+      ],
+      "date": "2023-08-23",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+      "finding": "27.2 changes already-owned originals, distinctSeptember1 Caverns release. Original-ID actual tags corroborate Rush addition, Battlecry removal, Deathrattle addition and Battlecry addition."
+    },
+    {
+      "ids": [
+        "GVG_091",
+        "GVG_122"
+      ],
+      "date": "2024-03-12",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24056182",
+        "https://hearthstone.blizzard.com/ko-kr/news/24064735",
+        "https://github.com/HearthSim/hsdata/blob/e072e5d302a93dc6fb33542e7c528ae4d39560f0/CardDefs.xml"
+      ],
+      "finding": "Keyword definition plus29.0 effectiveMarch12 and archive.29.0 notes do not name these2directly. Nullifier actual1211; Wee Spellstopper onlyReferencedTag1211.28.6 retains prior targeting restrictions."
+    }
+  ],
+  "historyDateCorrections": {
+    "GVG_030": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_034": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_048": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    },
+    "GVG_076": {
+      "oldDate": "2022-11-30",
+      "correctedDate": "2023-02-15",
+      "fields": [
+        "races",
+        "race"
+      ],
+      "reason": "These four Beast/Mech additions belong to25.4, not initial25.0 dual-type support.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+      ]
+    }
+  },
+  "dualTypeEvidence": {
+    "confidence": "high",
+    "sourceBuildBefore": "25.0.0.158725",
+    "sourceBuildAfter": "25.4.0.165029",
+    "beforeTags": {
+      "200": "17"
+    },
+    "afterTags": {
+      "200": "17",
+      "2542": "1"
+    },
+    "liveAnnouncementUTC": "2023-02-14T18:04:43.156Z",
+    "liveAnnouncementKST": "2023-02-15T03:04:43.156+09:00",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+      "https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692",
+      "https://www.inven.co.kr/board/hs/3508/19548",
+      "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+    ],
+    "supportingDeveloperExplanation": "https://www.hearthpwn.com/news/9833-patch-25-4-unannounced-changes-data-mining?page=3",
+    "method": "Korean25.4 launch date and exact4-card contemporary report plus positive actual25.4 tags; not inferred from archive absence alone. The25.0 archive contains38secondary-tag entities, so this was not a universal secondary-race export omission."
+  }
+}

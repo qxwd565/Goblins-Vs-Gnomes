@@ -6,10 +6,13 @@ import copy,hashlib,importlib.util,json,re,subprocess,sys
 R=Path(__file__).resolve().parents[1]
 def load(p):return json.loads((R/p).read_text())
 def digest(x):return hashlib.sha256(json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-spec=importlib.util.spec_from_file_location('builder',R/'tools/build-api.py');B=importlib.util.module_from_spec(spec);spec.loader.exec_module(B)
+spec=importlib.util.spec_from_file_location('builder',R/'tools/wrapper_api_reference.py');B=importlib.util.module_from_spec(spec);spec.loader.exec_module(B)
 fixtures=load('tools/gvg-current-fixtures.json')['cards'];obs=load('tools/gvg-client-numeric.json')['cards']
 current={c['id']:c for c in load('cards.json')['cards']};render={c['id']:c for c in load('render.json')['cards']};legacy=load('history.json')['cards']
-docs={p.stem:json.loads(p.read_text()) for p in (R/'data').glob('*.json')};audit=load('tools/gvg-release-audit.json');policy=load('release-policy.json')
+from date_schema import compatibility_card,read_card
+docs={}
+for p in (R/'data').glob('*.json'):
+ timeline,meta=read_card(R,p.stem);doc=copy.deepcopy(meta['originalSource']);doc['card']=compatibility_card(R,p.stem);docs[p.stem]=doc;audit=load('tools/gvg-release-audit.json');policy=load('release-policy.json')
 assert len(docs)==143 and set(docs)==set(current)==set(render)==set(fixtures)==set(obs)
 assert sum(c['collectible'] for c in current.values())==123
 for p in R.rglob('*.json'):json.loads(p.read_text())
@@ -103,7 +106,7 @@ assert '뽑을 때 시전' not in at('GVG_056t','2018-10-02')['text'] and '뽑�
 assert at('GVG_018','2019-07-01')['name']=='고통의 여제' and at('GVG_018','2019-07-02')['name']=='고통의 여왕'
 assert '생명력 흡수' not in at('GVG_018','2017-08-08')['text'] and '생명력 흡수' in at('GVG_018','2017-08-09')['text']
 for cid in ['GVG_030','GVG_034','GVG_048','GVG_076']:
- assert at(cid,'2022-11-29')['races']==['MECHANICAL'] and set(at(cid,'2022-11-30')['races'])=={'MECHANICAL','BEAST'}
+ assert at(cid,'2023-02-14')['races']==['MECHANICAL'] and set(at(cid,'2023-02-15')['races'])=={'MECHANICAL','BEAST'}
 assert at('GVG_042','2017-04-04')['races']==[] and at('GVG_042','2017-04-05')['races']==['ELEMENTAL']
 assert '전투의 함성' in at('GVG_046','2023-08-22')['text'] and '전투의 함성' not in at('GVG_046','2023-08-23')['text']
 assert '캐릭터' in at('GVG_072','2018-08-02')['text'] and '하수인' in at('GVG_072','2018-08-03')['text']
@@ -116,7 +119,7 @@ for cid in ('GVG_091','GVG_122'):
 assert 'ELUSIVE' not in current['GVG_122'].get('mechanics',[])
 assert all(not p['date'].startswith('2015-12') for p in docs['GVG_075']['card']['patches'])
 assert sum(not c['initialDisplayMatchesRelease'] for c in audit['cards'])==load('manifest.json')['partialInitialDisplayCardCount']
-paths=[R/p for p in ('cards.json','render.json','history.json')]+list((R/'data').glob('*.json'))
+paths=[R/p for p in ('cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json')]+list((R/'data').glob('*.json'))
 before={p:p.read_bytes() for p in paths}
 for _ in range(2):
  subprocess.run([sys.executable,str(R/'tools/build-api.py')],check=True,capture_output=True)

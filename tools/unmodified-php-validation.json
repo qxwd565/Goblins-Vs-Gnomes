@@ -1,0 +1,15 @@
+{
+  "result": "pass",
+  "validation": "offline unchanged parser; no deployment or database writes",
+  "runtime": "PHP WASM8.5.12",
+  "pluginSourceCommit": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
+  "importedCards": 143,
+  "historicalCases": 8580,
+  "checks": 8581,
+  "importValuesAndAssetsMatchOriginal": true,
+  "sourceFiles": {
+    "includes/class-set-api.php": "552f6a951153c5931c586847bd1f70544822835c31b5e32aa36e468b7ade27a5",
+    "includes/class-card-history.php": "b409e0dfa76b5603e81104a763a3a30c16edb5f3c19a6e7022af0cf746802832"
+  },
+  "correctedHistoryCases": 12
+}

@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Lightbomb",
-  "card": {
+  "2014-12-10": {
     "id": "GVG_008",
     "dbfId": 1938,
     "name": "빛폭탄",
@@ -10,116 +7,13 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "classes": [],
-    "nativeSetId": 13,
-    "set": "GVG",
     "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 6,
-    "attack": 0,
-    "health": 0,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
     "chooseOne": false,
-    "installed": true,
-    "portrait": "HS3-032_D.psd:d6ddc2d8ccafc96428216a198df7e994",
-    "flavor": "고블린이 사제가 되게 놔두면 이렇게 되는 겁니다.",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 6
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 370,
-        "name": "주문 공격력 적용",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "nativeRawText": "<b>모든</b> 하수인이 자신의 공격력만큼 피해를 받습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2014-12-10",
-    "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "HOLY"
-        }
-      }
-    ],
-    "initialSpecStatus": "partially_verified",
-    "patchSources": {
-      "2021-03-26": "https://hearthstone.blizzard.com/ko-kr/news/23642550"
-    }
+    "mechanics": []
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 13,
-    "slug": "goblins-vs-gnomes",
-    "name": "고블린 대 노움",
-    "type": "expansion",
-    "englishName": "Goblins Vs Gnomes"
-  },
-  "setOrder": 41,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "2.0.0.7234",
-      "name": "빛폭탄",
-      "rawText": "<b>모든</b> 하수인들이 자신의 공격력만큼 피해를 입습니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml",
-      "lastObservedBuild": "4.1.0.10956"
-    },
-    {
-      "build": "5.0.0.12574",
-      "name": "빛폭탄",
-      "rawText": "<b>모든</b> 하수인이 자신의 공격력만큼 피해를 입습니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
-      "lastObservedBuild": "8.0.0.18336"
-    },
-    {
-      "build": "9.0.0.20457",
-      "name": "빛폭탄",
-      "rawText": "<b>모든</b> 하수인이 자신의 공격력만큼 피해를 받습니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "lastObservedBuild": "37.0.2.256589"
-    }
-  ]
+  "2021-03-26": {
+    "spellSchool": "HOLY"
+  }
 }
