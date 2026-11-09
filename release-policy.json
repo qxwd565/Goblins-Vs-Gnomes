@@ -8,6 +8,9 @@
   "prefixes": {},
   "cards": {},
   "sources": {
-    "main": "https://hearthstone.blizzard.com/ko-kr/news/16801412"
-  }
+    "main": "https://hearthstone.blizzard.com/ko-kr/news/16801412",
+    "koreanLaunchDelay": "https://hearthstone.blizzard.com/ko-kr/news/16960836",
+    "arenaPreviewSeparate": "https://hearthstone.blizzard.com/ko-kr/news/16960844"
+  },
+  "basis": "First obtainable/constructed playable date, not client addition or pre-release Arena availability."
 }

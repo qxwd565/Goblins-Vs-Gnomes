@@ -1,0 +1,326 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "dateSources": {
+    "2015-08-19": "https://hearthstone.blizzard.com/ko-kr/news/19843161",
+    "2017-04-05": "https://news.blizzard.com/ko-kr/article/20678265/4-5",
+    "2017-08-09": "https://hearthstone.blizzard.com/ko-kr/news/20944006",
+    "2017-12-07": "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+    "2018-04-11": "https://hearthstone.blizzard.com/ko-kr/news/21694420",
+    "2018-08-03": "https://news.blizzard.com/ko-kr/article/21964710/12-0-8-3",
+    "2018-10-03": "https://hearthstone.blizzard.com/ko-kr/news/22546493",
+    "2019-04-05": "https://hearthstone.blizzard.com/ko-kr/news/22938499/4-5",
+    "2019-05-15": "https://hearthstone.blizzard.com/ko-kr/news/22933721",
+    "2019-07-02": "https://hearthstone.blizzard.com/ko-kr/news/23037180",
+    "2021-03-26": "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+    "2021-05-13": "https://hearthstone.blizzard.com/ko-kr/news/23671132",
+    "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860",
+    "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+    "2023-09-07": "https://us.forums.blizzard.com/en/hearthstone/t/2723-patch-notes/113008",
+    "2024-03-12": "https://hearthstone.blizzard.com/ko-kr/news/24064735",
+    "2025-03-19": "https://hearthstone.blizzard.com/ko-kr/news/24187196"
+  },
+  "release": {
+    "date": "2014-12-10",
+    "basis": "Korean constructed first obtainability; separate from December 5 Arena preview",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/16960836",
+      "https://hearthstone.blizzard.com/ko-kr/news/16960844"
+    ]
+  },
+  "mineName": {
+    "id": "GVG_056t",
+    "field": "name",
+    "before": "잠복한 지뢰",
+    "after": "거미 지뢰",
+    "lastObservedBefore": "2.8.0.9554",
+    "firstObservedAfter": "3.0.0.9786",
+    "dateKst": "2015-08-19",
+    "evidence": [
+      {
+        "build": "2.4.0.8311",
+        "name": "잠복한 지뢰",
+        "rawText": "이 카드를 뽑으면 폭발하여 내게 피해를 10 줍니다. 카드를 1장 뽑습니다.",
+        "englishName": "Burrowing Mine",
+        "englishText": "When you draw this, it explodes. You take 10 damage and draw a card.",
+        "values": {
+          "183": "13",
+          "199": "10",
+          "202": "5",
+          "349": "1",
+          "377": "1"
+        },
+        "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+      },
+      {
+        "build": "2.6.0.8834",
+        "name": "잠복한 지뢰",
+        "rawText": "이 카드를 뽑으면 폭발하여 내게 피해를 10 줍니다. 카드를 1장 뽑습니다.",
+        "englishName": "Burrowing Mine",
+        "englishText": "When you draw this, it explodes. You take 10 damage and draw a card.",
+        "values": {
+          "183": "13",
+          "199": "10",
+          "202": "5",
+          "349": "1",
+          "377": "1"
+        },
+        "source": "https://github.com/HearthSim/hsdata/blob/d313bd8fed02bd9830bad1c33f677557fc1f8543/CardDefs.xml"
+      },
+      {
+        "build": "2.8.0.9554",
+        "name": "잠복한 지뢰",
+        "rawText": "이 카드를 뽑으면 폭발하여 내게 피해를 10 줍니다. 카드를 1장 뽑습니다.",
+        "englishName": "Burrowing Mine",
+        "englishText": "When you draw this, it explodes. You take 10 damage and draw a card.",
+        "values": {
+          "183": "13",
+          "199": "10",
+          "202": "5",
+          "349": "1",
+          "377": "1"
+        },
+        "source": "https://github.com/HearthSim/hsdata/blob/2a81ee97953bc598b18dd27d05606980db21c078/CardDefs.xml"
+      },
+      {
+        "build": "3.0.0.9786",
+        "name": "거미 지뢰",
+        "rawText": "이 카드를 뽑으면, 폭발하여 내게 피해를 10 줍니다. 카드를 1장 뽑습니다.",
+        "englishName": "Burrowing Mine",
+        "englishText": "When you draw this, it explodes. You take 10 damage and draw a card.",
+        "values": {
+          "183": "13",
+          "199": "10",
+          "202": "5",
+          "349": "1",
+          "377": "1"
+        },
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml"
+      }
+    ],
+    "koreanPatchSources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/19843161",
+      "https://m.inven.co.kr/webzine/wznews.php?idx=140778&l=131461&p=56&site=hs"
+    ],
+    "koreanDateBasis": "Official Korean 3.0 patch post dated 2015-08-19. Contemporaneous Inven article on Aug19 11:31 reports patch already applied and shows collection UI. Last prepatch archive still has original name, next 3.0 archive changes name. No date inference from synthetic hsdata commit timestamp.",
+    "relatedTextChange": "In 3.0, the Korean CARDTEXT adds a comma after 이 카드를 뽑으면. Treat as wording/layout only, separate from gameplay."
+  },
+  "patch272IndependentReview": {
+    "date": "2023-08-23",
+    "timezone": "Asia/Seoul",
+    "scope": "Independent official 27.2 list cross-check for GvG only; one field has delayed effective application.",
+    "source": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+    "cards": [
+      {
+        "id": "GVG_004",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "고블린 폭발법사",
+          "CARDTEXT": "[x]<b>전투의 함성:</b> 내 전장에\n기계가 있으면, 모든 적에게\n6의 피해를 무작위로\n나누어 입힙니다.",
+          "HEALTH": 4,
+          "ATK": 5,
+          "COST": 4
+        }
+      },
+      {
+        "id": "GVG_007",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "거대 화염전차",
+          "CARDTEXT": "<b>속공:</b> 이 카드를 뽑을 때, 기계가 아닌 <b>모든</b> 캐릭터에게 피해를 2 줍니다.",
+          "HEALTH": 7,
+          "ATK": 7,
+          "COST": 7
+        }
+      },
+      {
+        "id": "GVG_009",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "그림자 폭격수",
+          "CARDTEXT": "<b>전투의 함성:</b> 각 영웅에게 피해를 3씩 줍니다.",
+          "HEALTH": 1,
+          "ATK": 3,
+          "COST": 1
+        }
+      },
+      {
+        "id": "GVG_011",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "축소술사",
+          "CARDTEXT": "[x]<b>전투의 함성:</b> 이번 턴에\n하수인에게 공격력을\n-3 부여합니다.",
+          "HEALTH": 2,
+          "ATK": 3,
+          "COST": 2
+        }
+      },
+      {
+        "id": "GVG_015",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "검은폭탄",
+          "CARDTEXT": "캐릭터에게 피해를 $3 줍니다.\n그 캐릭터가 죽으면,\n암흑 주문을 뽑습니다.",
+          "COST": 2
+        }
+      },
+      {
+        "id": "GVG_035",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "말로른",
+          "CARDTEXT": "<b>죽음의 메아리:</b> <b>휴면</b> 상태가 됩니다. 아군 야수가 둘 죽으면 되살아납니다.",
+          "HEALTH": 7,
+          "ATK": 9,
+          "COST": 7
+        }
+      },
+      {
+        "id": "GVG_046",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "백수의 왕",
+          "CARDTEXT": "<b>도발</b>, 내 다른 야수\n하나당 공격력을 +1 얻습니다.",
+          "HEALTH": 5,
+          "ATK": 1,
+          "COST": 3
+        }
+      },
+      {
+        "id": "GVG_050",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "날뛰는 톱날",
+          "CARDTEXT": "무작위 하수인에게 피해를 $1 줍니다.\n하수인이 죽을 때까지 반복됩니다.",
+          "COST": 2
+        }
+      },
+      {
+        "id": "GVG_056",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "강철의 거대괴수",
+          "CARDTEXT": "<b>전투의 함성과 죽음의 메아리:</b> 상대편의 덱에 지뢰를 섞어 넣습니다. 지뢰를 뽑으면, 폭발하며 피해를 10 줍니다!",
+          "HEALTH": 5,
+          "ATK": 6,
+          "COST": 6
+        }
+      },
+      {
+        "id": "GVG_073",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "코브라 사격",
+          "CARDTEXT": "[x]하수인과 적 영웅에게\n피해를 $3 줍니다.",
+          "COST": 4
+        }
+      },
+      {
+        "id": "GVG_109",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": false,
+        "spec": {
+          "CARDNAME": "작은 마법사",
+          "CARDTEXT": "<b>은신</b>\n<b>주문 공격력 +1</b>",
+          "HEALTH": 1,
+          "ATK": 3,
+          "COST": 3
+        }
+      },
+      {
+        "id": "GVG_114",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": false,
+        "spec": {
+          "CARDNAME": "스니드의 낡은 벌목기",
+          "CARDTEXT": "<b>죽음의 메아리:</b>\n무작위 <b>전설</b> 하수인을 소환합니다.",
+          "HEALTH": 7,
+          "ATK": 5,
+          "COST": 8
+        }
+      },
+      {
+        "id": "GVG_123",
+        "sourceBuild": "27.2.0.183876",
+        "sourceCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+        "inOfficial272Table": true,
+        "spec": {
+          "CARDNAME": "그을음 생성로봇",
+          "CARDTEXT": "<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 전장에 다른 기계가 있으면, 무작위 화염 주문을 얻습니다.",
+          "HEALTH": 3,
+          "ATK": 3,
+          "COST": 3
+        }
+      }
+    ],
+    "exceptions": [
+      {
+        "id": "GVG_109",
+        "finding": "Not in 27.2 list. 4->3 cost and 4->3 attack are 20.0, Korean 2021-03-26; current 27.2 archive already has 3 cost/3 attack."
+      },
+      {
+        "id": "GVG_114",
+        "finding": "Not in 27.2 list. 8->7 cost belongs to Core 2025/32.0, Korean 2025-03-19; 27.2 archive remains 8 cost.",
+        "officialNumericSource": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/5L4LK5ASYDUL1739227664823.pdf",
+        "officialNumericSourceObservation": "Core 2025 changes PDF explicitly lists Sneed’s Old Shredder [7 Mana], line 40 of extracted one-page PDF."
+      },
+      {
+        "id": "GVG_123",
+        "finding": "Official 27.2 announced 3/4 but original GvG copy remained 3/3 due to acknowledged bug. Text/Battlecry changed on 27.2; health must be separated. Client hotfix US9/5 changed Collection; 27.2.3 server hotfix US9/6 changed in-game. Korean contemporaneous report on 2023-09-07.",
+        "gameplayHealthEffectiveDateKst": "2023-09-07",
+        "sources": [
+          "https://us.forums.blizzard.com/en/hearthstone/t/272-known-issues/112122",
+          "https://us.forums.blizzard.com/en/hearthstone/t/2723-patch-notes/113008",
+          "https://www.inven.co.kr/board/hs/3508/19969",
+          "https://www.inven.co.kr/board/hs/3508?mskin=&p=31",
+          "https://hearthstone.wiki.gg/wiki/Soot_Spewer"
+        ],
+        "sourceAccessCaveat": "The Korean forum listing was read and shows entry 19969, 27.2.3 hotfix patch notes, dated 09-07. Direct article body retrieval failed, so no claim is based on its unread body. Official 27.2.3 source explicitly describes server-side hotfix launching that day; displayed forum timestamp is September 6, 2023, 3:59pm. Date is corroborated by the Korean listing rather than assuming every US date becomes next Korean day."
+      }
+    ]
+  },
+  "additionalSources": {
+    "Neptulon": [
+      "https://hearthstone.blizzard.com/ko-kr/news/20634742"
+    ],
+    "Shieldmaiden": [
+      "https://www.inven.co.kr/board/hs/3508/17714?p=68",
+      "https://www.inven.co.kr/board/hs/3508/17716"
+    ],
+    "MineCost": [
+      "https://hearthstone.wiki.gg/wiki/Burrowing_Mine",
+      "https://linuxtest.hearthpwn.com/news/4069-patch-10-0-kobolds-flavor-text-new-quests-kobolds"
+    ],
+    "Sneed": [
+      "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/5L4LK5ASYDUL1739227664823.pdf"
+    ],
+    "ShipCannonPending": [
+      "http://kr.battle.net/hearthstone/ko/blog/19975319/하스스톤-41010956-패치-노트-2015-12-05",
+      "https://m.inven.co.kr/webzine/wznews.php?idx=148025&l=121501&p=52&site=hs",
+      "https://www.inven.co.kr/board/hs/3508/3674"
+    ]
+  },
+  "interpretation": "Official Korean patch notes establish effective day; raw before/after client states identify exact card changes when not enumerated in notes. A sparse observation is not by itself proof of first change build; unresolved changes are not dated. 27.2.2 Soot client display is explicitly not server gameplay."
+}

@@ -1,0 +1,27 @@
+name: Validate HScard API
+on:
+  push:
+    paths:
+      - '.github/workflows/normalize-card-history.yml'
+      - 'cards.json'
+      - 'render.json'
+      - 'history.json'
+      - 'release-policy.json'
+      - 'data/**'
+      - 'tools/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Generate API indexes with the committed builder
+        run: python3 tools/build-api.py
+      - name: Validate GvG release and patch history
+        run: python3 tools/test-gvg-history.py
+      - name: Verify committed indexes are current
+        run: git diff --exit-code -- cards.json render.json history.json data

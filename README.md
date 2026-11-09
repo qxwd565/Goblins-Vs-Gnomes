@@ -1,25 +1,25 @@
 # Goblins Vs Gnomes — HSdeck API
 
-이 저장소는 `qxwd565/legacy`와 동일한 **schema 1** API 파일 형식으로 만들어졌습니다. 시간 기준은 **Asia/Seoul(한국 날짜)**입니다.
+한국 날짜(Asia/Seoul)의 고블린 대 노움 카드 API입니다. 143개 ID(수집 가능 123장, 생성 토큰·선택지·예비 부품 20개)를 포함합니다.
 
-- `cards.json`: 현재 카드 데이터(원화 경로 `art`는 항상 `""`)
-- `render.json`: 현재 데이터와 날짜별 과거 변경값을 합친 WebGL 전용 API
-- `history.json`: 이전 HScard 플러그인을 위한 호환 인덱스
-- `data/<카드ID>.json`: 원본 카드 정보 + `card`의 최초 스펙 + `card.patches`의 후속 변경 필드
-- `release-policy.json`: 확장팩·미니세트·선행 카드 출시일
-- `manifest.json`: 데이터 수량 및 검증 범위
-- `art/`, `golden/`: 이미지 없이 `.gitkeep`만 보관. 이미지를 나중에 추가할 때 **카드 ID 파일명을 쓰지 않고 원화 내용 SHA-256 해시 파일명을 사용**합니다.
+- `data/<ID>.json`: schemaVersion 2. `card`에 최초 스펙, `card.patches`에 날짜별 변경 필드만 기록합니다.
+- `cards.json`: 현재 카드 데이터.
+- `render.json`: 현재 데이터와 과거 날짜 구간별 변경값.
+- `history.json`: 이전 HScard 플러그인을 위한 호환 인덱스.
+- `release-policy.json`: 실제 한국 정식 덱 사용 가능일. 투기장 사전 체험과 구분합니다.
+- `manifest.json`: 데이터 수량 및 검증 범위.
+- `art/`, `golden/`: 기존 파일과 경로를 유지합니다.
 
-## 이번 작업
+최초 한국 정식 사용일은 **2014-12-10**입니다. 29개 클라이언트 빌드에서 전 143종의 최초 수치·타입 등을 교차검증했고, 45종에 55개 날짜 이벤트를 기록했습니다. 현재값의 의미는 바꾸지 않았으며 카드 표시 줄바꿈은 `<br></br>`로 통일했습니다.
 
-- 고유 카드 원본 143건, 수집 가능 123장, 수집 불가 20건
-- 생성형 카드 조합 변형 0건은 별도 `data/combinations/`에 보관(같은 카드 ID 중복 등록 방지)
-- 검증된 패치 변경 필드가 기록된 카드 1장 / 변경 날짜 이벤트 1건
-- 출시일 미확정 카드 0건
-- 카드 이미지 **0개 업로드**
+**검증은 부분 완료입니다.** 99종의 최초 표시 문구는 아직 현재 정규화 문구와 다릅니다. 모든 `initialSpecStatus`는 `partially_verified`이며, 최초 원문·이후 관측 구간·카드별 미확정 사항은 [BALANCE-AUDIT.md](BALANCE-AUDIT.md)와 `tools/gvg-release-audit.json`을 확인하세요. 날짜가 불명확한 문구 변경을 임의 날짜로 만들지 않습니다.
 
-> 주의: 제공된 ZIP에는 현재 카드 스펙만 있습니다. *최초 등장 당시의 값*은 공식 변경 이력이 확인된 필드만 역산했으며, 다른 필드는 원본에 과거 값이 없어 최신 수치로 임시 채웠습니다. 이를 `card.initialSpecStatus`로 기록했습니다. 미확인 초기 스펙을 검증된 과거 사실로 오해하지 마세요. 날짜별 `card.history`도 검증된 변경 사항에 대해서만 신뢰할 수 있습니다.
+`historicalTextObservations`, `nativeRawText`, `nativeTags`는 원시 증거를 보존하며 표시용 줄바꿈 정규화 대상이 아닙니다. `nativeTags`를 과거 시점 스펙으로 해석하지 마세요.
 
-카드 이름이 아닌 **정확한 카드 ID/dbfId를 기준**으로 변경 이력을 연결했습니다.
+## 빌드와 검사
 
-기존 원화·황금 카드 파일과 경로는 유지합니다.
+`python3 tools/build-api.py`
+
+`python3 tools/test-gvg-history.py`
+
+생성 인덱스를 직접 수정하지 말고 개별 `data` 원본을 수정한 뒤 빌드합니다. 카드 이름이 아닌 정확한 ID/dbfId로 이력을 연결합니다. 현재 번들, 날짜 경계, 원시 증거, 두 번 재실행 동일성을 검사합니다.

@@ -1,0 +1,4822 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "originalHead": "a052fc6375439e387040e2f308a0a73eef591bfe",
+  "scope": "143 constructed IDs: 123 collectible and 20 generated tokens/choice cards/Spare Parts. Selected 29 client builds, not exhaustive every-build or all bug-fix/text/art chronology.",
+  "datePolicy": "Actual Korean constructed availability and independently sourced patch dates; archive commit timestamps are not effective dates.",
+  "rawDataPolicy": "nativeTags/nativeRawText are unchanged installed evidence, not historical gameplay values. HistoricalTextObservations preserve raw formatting verbatim.",
+  "textPolicy": "Known functional/keyword boundaries use actual release text and sourced successor effects. Cosmetic-only transitions without known dates are explicit pending ranges; no fully verified initial-spec claim.",
+  "cards": [
+    {
+      "id": "GVG_001",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "화염포",
+      "initialRawText": "무작위 적 하수인 하나에게 피해를 $4 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "FIRE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_002",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "꽁꽁로봇",
+      "initialRawText": "이 하수인에게 피해를 입은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_003",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "불안정한 차원문",
+      "initialRawText": "무작위 하수인 카드 1장을 내 손으로 가져옵니다. 그 카드의 비용이 (3) 감소합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "ARCANE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_004",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 5,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "고블린 폭발법사",
+      "initialRawText": "<b>전투의 함성:</b> 전장에 내 기계 하수인이 있으면 모든 적에게 4의 피해를 무작위로 나누어 입힙니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "[x]<b>전투의 함성:</b> 내 전장에<br></br>기계가 있으면, 모든 적에게<br></br>6의 피해를 무작위로<br></br>나누어 입힙니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_005",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "메디브의 메아리",
+      "initialRawText": "전장의 아군 하수인들을 복사하여 손으로 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "ARCANE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_006",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "기계소환로봇",
+      "initialRawText": "내 기계 하수인의 비용이 (1) 감소합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2024-03-12",
+          "changes": {
+            "cost": 4,
+            "attack": 4,
+            "health": 4
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_007",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 7,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "거대 화염전차",
+      "initialRawText": "이 카드를 뽑을 때, <b>모든</b> 캐릭터에게 피해를 2 줍니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "<b>속공:</b> 이 카드를 뽑을 때, 기계가 아닌 <b>모든</b> 캐릭터에게 피해를 2 줍니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_008",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "빛폭탄",
+      "initialRawText": "<b>모든</b> 하수인들이 자신의 공격력만큼 피해를 입습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_009",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "그림자 폭격수",
+      "initialRawText": "<b>전투의 함성:</b> 각 영웅에게 피해를 3씩 줍니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "attack": 3
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_010",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "벨렌의 선택",
+      "initialRawText": "하수인 하나에게 +2/+4와 <b>주문 공격력 +1</b>을 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_011",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "축소술사",
+      "initialRawText": "<b>전투의 함성:</b> 이번 턴에 하수인 하나에게 공격력을 -2 부여합니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>하수인에게 공격력을<br></br>-3 부여합니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_012",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "나루의 빛",
+      "initialRawText": "생명력을 #3 회복시킵니다. 그래도 대상이 피해를 입은 상태라면 빛의 감시자를 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_013",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "톱니장인",
+      "initialRawText": "내 전장에 기계 하수인이 있으면 공격력을 +2 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "14.0.0.29933",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_014",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 6,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "볼진",
+      "initialRawText": "<b>전투의 함성:</b> 다른 하수인 하나와 생명력을 바꿉니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_015",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "검은폭탄",
+      "initialRawText": "피해를 $3 줍니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "SHADOW"
+          }
+        },
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "캐릭터에게 피해를 $3 줍니다.<br></br>그 캐릭터가 죽으면,<br></br>암흑 주문을 뽑습니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_016",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 8,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "지옥절단기",
+      "initialRawText": "상대편이 카드를 낼 때마다, 내 다음 카드 3장을 버립니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_017",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "야수 부르기",
+      "initialRawText": "카드를 1장 뽑습니다.\n야수 카드면 비용이 (4) 감소합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_018",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "고통의 여제",
+      "initialRawText": "이 하수인이 피해를 줄 때마다, 내 영웅이 그만큼의 생명력을 회복합니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2017-08-09",
+          "changes": {
+            "text": "<b>생명력 흡수</b>"
+          }
+        },
+        {
+          "date": "2019-07-02",
+          "changes": {
+            "name": "고통의 여왕"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "14.2.0.30795",
+          "byObservedBuild": "14.6.0.31761",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_019",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "악마의 심장",
+      "initialRawText": "하수인에게 피해를 $5 줍니다. 대상이 아군 악마면 +5/+5를 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "SHADOW"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "7.1.0.17720",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_020",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 3,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "지옥 대포",
+      "initialRawText": "내 턴이 끝날 때, 기계가 아닌 하수인 하나에게 피해를 2 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_021",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 9,
+        "attack": 9,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "말가니스",
+      "initialRawText": "내 다른 악마들이 +2/+2를 얻습니다.\n내 영웅이 <b>피해 면역</b> 상태가 됩니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_022",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "땜장이의 뾰족칼 기름",
+      "initialRawText": "내 무기에 공격력을 +3 부여합니다. <b>연계:</b> 무작위 아군 하수인 하나에게 공격력을 +3 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_023",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "고블린 자동 이발기",
+      "initialRawText": "<b>전투의 함성:</b> 내 무기에 공격력을 +1 부여합니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_024",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 1,
+        "health": 3,
+        "durability": 3
+      },
+      "initialType": "WEAPON",
+      "initialName": "톱니장인의 렌치",
+      "initialRawText": "내 전장에 기계 하수인이 있으면 공격력을 +2 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "14.0.0.29933",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_025",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 4,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "외눈박이 사기꾼",
+      "initialRawText": "해적을 소환할 때마다, <b>은신</b>을 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.6.0.8834",
+          "byObservedBuild": "2.8.0.9554",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_026",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "죽은척하기",
+      "initialRawText": "내 하수인들의 <b>죽음의 메아리</b>를 모두 발동시킵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_027",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "강철 사부",
+      "initialRawText": "내 턴이 끝날 때, 다른 아군 기계 하수인 하나에게 +2/+2를 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "32.0.0.217964",
+          "byObservedBuild": "37.0.2.256589",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_028",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 5,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "무역왕 갤리윅스",
+      "initialRawText": "상대편이 주문을 시전할 때마다, 동일한 주문을 내 손으로 가져오고 상대편에게 동전을 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_028t",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "갤리웍스의 동전",
+      "initialRawText": "이번 턴에만 마나 수정을 1개 획득합니다.\n<i>(갤리윅스의 효과를 발동시키지 않습니다.)</i>",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.6.0.8834",
+          "byObservedBuild": "2.8.0.9554",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_029",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "선조의 부름",
+      "initialRawText": "각 플레이어의 손에 있는 무작위 하수인 하나를 전장에 놓습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "14.6.0.31761",
+          "byObservedBuild": "17.0.0.44222",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_030",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "양극 처리 로봇 새끼곰",
+      "initialRawText": "<b>도발</b>\n<b>선택 -</b>\n공격력 +1 또는 생명력 +1을 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "MECHANICAL",
+              "BEAST"
+            ],
+            "race": "기계, 야수"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.0.0.7234",
+          "byObservedBuild": "2.1.0.7628",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_030a",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "공격 모드",
+      "initialRawText": "공격력을 +1 얻습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2019-05-15",
+          "changes": {
+            "cost": 2
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_030b",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "방어 모드",
+      "initialRawText": "생명력을 +1 얻습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2019-05-15",
+          "changes": {
+            "cost": 2
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_031",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "재활용",
+      "initialRawText": "적 하수인 하나를 상대편 덱에 섞어 넣습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "7.1.0.17720",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_032",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "숲 뜰지기",
+      "initialRawText": "<b>선택 -</b> 각 플레이어가 마나 수정을 1개 획득합니다. 또는 각 플레이어가 카드를 1장 뽑습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_032a",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "마나의 선물",
+      "initialRawText": "각 플레이어가 마나 수정을 1개 획득합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2019-05-15",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_032b",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "카드의 선물",
+      "initialRawText": "각 플레이어가 카드를 1장 뽑습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2019-05-15",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_033",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 9,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "생명의 나무",
+      "initialRawText": "<b>모든</b> 캐릭터를 최대 생명력으로 회복시킵니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_034",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 7,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "기계표범곰",
+      "initialRawText": "이 하수인이 피해를 입을 때마다, <b>예비 부품</b> 카드를 내 손으로 1장 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "MECHANICAL",
+              "BEAST"
+            ],
+            "race": "기계, 야수"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_035",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 9,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "말로른",
+      "initialRawText": "<b>죽음의 메아리:</b> 이 하수인을 내 덱에 다시 섞어 넣습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "<b>죽음의 메아리:</b> <b>휴면</b> 상태가 됩니다. 아군 야수가 둘 죽으면 되살아납니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_036",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "durability": 2
+      },
+      "initialType": "WEAPON",
+      "initialName": "강화 철퇴",
+      "initialRawText": "<b>죽음의 메아리</b>: 무작위 아군 기계 하수인 하나에게 +2/+2를 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "32.0.0.217964",
+          "byObservedBuild": "37.0.2.256589",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_037",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "회전하는 자동제압로봇",
+      "initialRawText": "<b>질풍</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_038",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "파지직",
+      "initialRawText": "피해를 $3-$6 줍니다. <b>과부하: (1)</b>",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_039",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "활력의 토템",
+      "initialRawText": "내 턴이 끝날 때, 내 영웅의 생명력을 4 회복시킵니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_040",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 2,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "진흙지느러미 영혼방랑자",
+      "initialRawText": "다른 아군 멀록이 죽을 때마다 카드를 1장 뽑습니다. <b>과부하: (1)</b>",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_041",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "어둠의 속삭임",
+      "initialRawText": "<b>선택 -</b> 위습 5마리를 소환합니다. 또는 하수인 하나에게 +5/+5와 <b>도발</b>을 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_041a",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "어둠의 속삭임",
+      "initialRawText": "+5/+5, 그리고 <b>도발</b>을 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2019-04-05",
+          "changes": {
+            "name": "수호자 부르기"
+          }
+        },
+        {
+          "date": "2019-05-15",
+          "changes": {
+            "cost": 6
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "14.0.0.29933",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_041b",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "어둠의 속삭임",
+      "initialRawText": "위습 5마리를 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2019-04-05",
+          "changes": {
+            "name": "자연의 방어"
+          }
+        },
+        {
+          "date": "2019-05-15",
+          "changes": {
+            "cost": 6
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "14.0.0.29933",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_042",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 7,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "넵튤론",
+      "initialRawText": "<b>전투의 함성:</b> 무작위 멀록 4마리를 내 손으로 가져옵니다. <b>과부하: (3)</b>",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2017-04-05",
+          "changes": {
+            "races": [
+              "ELEMENTAL"
+            ],
+            "race": "정령"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "20.2.2.83143",
+          "byObservedBuild": "26.0.0.170824",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_043",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "durability": 2
+      },
+      "initialType": "WEAPON",
+      "initialName": "수리검포",
+      "initialRawText": "<b>전투의 함성:</b> 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "27.2.0.183876",
+          "byObservedBuild": "27.2.2.185054",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_044",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 3,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "거미 전차",
+      "initialRawText": "",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_045",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "임프 폭발",
+      "initialRawText": "하수인 하나에게 $2~$4의 피해를 줍니다. 입힌 피해만큼 1/1 임프를 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "FEL"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.0.0.7234",
+          "byObservedBuild": "2.1.0.7628",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_045t",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "임프",
+      "initialRawText": "",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_046",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 2,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "백수의 왕",
+      "initialRawText": "<b>도발</b>. <b>전투의 함성:</b> 전장의 다른 아군 야수 하나당 공격력을 +1 얻습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "cost": 3,
+            "attack": 1,
+            "health": 5,
+            "text": "<b>도발</b>, 내 다른 야수<br></br>하나당 공격력을 +1 얻습니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_047",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "파괴 공작",
+      "initialRawText": "무작위 적 하수인 하나를 처치합니다. <b>연계</b>: 상대편의 무기를 파괴합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_048",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "강철니 표범로봇",
+      "initialRawText": "<b>전투의 함성</b>: 내 다른 기계 하수인들에게 공격력을 +2 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "MECHANICAL",
+              "BEAST"
+            ],
+            "race": "기계, 야수"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_049",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 6,
+        "health": 9,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "가즈릴라",
+      "initialRawText": "이 하수인은 피해를 입을 때마다 공격력이 2배가 됩니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_050",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "날뛰는 톱날",
+      "initialRawText": "무작위 하수인 하나에게 피해를 $1 줍니다. 하수인 하나가 죽을 때까지 반복됩니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "cost": 2
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_051",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "전쟁로봇",
+      "initialRawText": "<b>격노:</b> 공격력 +1",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2018-04-11",
+          "changes": {
+            "text": "피해를 받은 상태면 공격력을 +1 얻습니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "10.0.0.22611",
+          "byObservedBuild": "11.0.0.23966",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_052",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "으깨기",
+      "initialRawText": "하수인 하나를 처치합니다. 만약 내 전장에 부상 당한 하수인이 있다면, 비용이 (4) 감소합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_053",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "방패 여전사",
+      "initialRawText": "<b>전투의 함성:</b> 방어도를 +5 얻습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2021-05-13",
+          "changes": {
+            "cost": 5
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_054",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "durability": 2
+      },
+      "initialType": "WEAPON",
+      "initialName": "오우거 전쟁망치",
+      "initialRawText": "50%의 확률로 엉뚱한 적을 공격합니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_055",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 2,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "깡통나사 고물로봇",
+      "initialRawText": "<b>전투의 함성</b>: 아군 기계 하수인 하나에게 +2/+2를 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "32.0.0.217964",
+          "byObservedBuild": "37.0.2.256589",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_056",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 6,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "강철의 거대괴수",
+      "initialRawText": "<b>전투의 함성:</b> 상대편의 덱에 지뢰 카드를 섞어 넣습니다. 상대편이 지뢰를 뽑으면 폭발하며 피해를 10 줍니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "<b>전투의 함성과 죽음의 메아리:</b> 상대편의 덱에 지뢰를 섞어 넣습니다. 지뢰를 뽑으면, 폭발하며 피해를 10 줍니다!"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "12.0.0.25770",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_056t",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "잠복한 지뢰",
+      "initialRawText": "이 카드를 뽑으면 폭발하여 내게 피해를 10 줍니다. 카드를 1장 뽑습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "name": "거미 지뢰",
+            "text": "이 카드를 뽑으면, 폭발하여 내게 피해를 10 줍니다. 카드를 1장 뽑습니다."
+          }
+        },
+        {
+          "date": "2017-12-07",
+          "changes": {
+            "cost": 6,
+            "text": "내게 피해를 10 줍니다. 카드를 1장 뽑습니다. 이 카드를 뽑아도 폭발합니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "[x]<b>뽑을 때 시전</b><br></br>내게 피해를 10 줍니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "7.1.0.17720",
+          "byObservedBuild": "8.0.0.18336",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "9.0.0.20457",
+          "byObservedBuild": "10.0.0.22611",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated.",
+        "Korean rename 잠복한 지뢰→거미 지뢰 dated 2015-08-19 from 2.8/3.0 raw transition and Korean deployment reports."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_057",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "빛의 인장",
+      "initialRawText": "내 영웅의 생명력을 #4 회복시키고 이번 턴에 공격력을 +2 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.0.0.7234",
+          "byObservedBuild": "2.1.0.7628",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_058",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "보호막을 쓴 꼬마로봇",
+      "initialRawText": "<b>천상의 보호막</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_059",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "durability": 3
+      },
+      "initialType": "WEAPON",
+      "initialName": "톱니망치",
+      "initialRawText": "<b>전투의 함성:</b> 무작위 아군 하수인 하나에게 <b>천상의 보호막</b>과 <b>도발</b>을 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "32.0.0.217964",
+          "byObservedBuild": "37.0.2.256589",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_060",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 2,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "병참장교",
+      "initialRawText": "<b>전투의 함성:</b> 내 은빛 성기사단 신병들에게 +2/+2를 부여합니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_061",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "병력 소집",
+      "initialRawText": "1/1 은빛 성기사단 신병을 3명 소환합니다. 1/4 무기를 장비합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.0.0.7234",
+          "byObservedBuild": "2.1.0.7628",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "32.0.0.217964",
+          "byObservedBuild": "37.0.2.256589",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_062",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 6,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "코발트 수호자",
+      "initialRawText": "내가 기계 하수인을 소환할 때마다, <b>천상의 보호막</b>을 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_063",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 1,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "볼바르 폴드라곤",
+      "initialRawText": "내 손에 있을 때, 전장의 내 하수인이 죽을 때마다, 공격력을 +1 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_064",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "웅덩이디딤꾼",
+      "initialRawText": "",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_065",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 4,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "오우거 투사",
+      "initialRawText": "50%의 확률로 엉뚱한 적을 공격합니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_066",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 5,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "모래망치 주술사",
+      "initialRawText": "<b>질풍, 과부하: (1)</b>\n50%의 확률로 엉뚱한 적을 공격합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_067",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "가루바위 트로그",
+      "initialRawText": "상대편이 주문을 시전할 때마다, 공격력을 +1 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_068",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 3,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "힘센 바위턱트로그",
+      "initialRawText": "상대편이 주문을 시전할 때마다, 공격력을 +2 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_069",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 3,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "낡은 치유로봇",
+      "initialRawText": "<b>전투의 함성:</b> 내 영웅이 생명력을 8 회복합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_070",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 7,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "노련한 뱃사람",
+      "initialRawText": "",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_071",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 5,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "길 잃은 타조",
+      "initialRawText": "",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_072",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "권투로봇",
+      "initialRawText": "캐릭터가 치유될 때마다, 무작위 적 하나에게 피해를 1 줍니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2018-08-03",
+          "changes": {
+            "text": "[x]하수인이 치유될<br></br>때마다 무작위 적에게<br></br>피해를 1 줍니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "12.0.0.25770",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_073",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "코브라 사격",
+      "initialRawText": "하수인 하나와 적 영웅에게 피해를 $3 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        },
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "cost": 4
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_074",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "케잔 비술사",
+      "initialRawText": "<b>전투의 함성:</b> 적에게 걸려 있는 무작위 <b>비밀</b> 하나를 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "14.6.0.31761",
+          "byObservedBuild": "17.0.0.44222",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_075",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "함포",
+      "initialRawText": "해적을 소환할 때마다, 무작위 적 하나에게 피해를 2 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.6.0.8834",
+          "byObservedBuild": "2.8.0.9554",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "3.0.0.9786",
+          "byObservedBuild": "4.1.0.10956",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated.",
+        "4.1 Whenever→After wording has conflicting Korean December 5/6 evidence. No guessed date. Trigger behavior already occurred after battlecries."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_076",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "양 폭탄",
+      "initialRawText": "<b>죽음의 메아리:</b> <b>모든</b> 하수인에게 피해를 2 줍니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "MECHANICAL",
+              "BEAST"
+            ],
+            "race": "기계, 야수"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_077",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 9,
+        "health": 9,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "령 골렘",
+      "initialRawText": "각 턴이 끝날 때마다, 내 전장에 다른 하수인이 없다면 이 하수인을 처치합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "7.1.0.17720",
+          "byObservedBuild": "8.0.0.18336",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_078",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 4,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "기계설인",
+      "initialRawText": "<b>죽음의 메아리:</b> 각 플레이어에게 <b>예비 부품</b>을 하나 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_079",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 8,
+        "attack": 7,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "막강 에너지 전차",
+      "initialRawText": "<b>천상의 보호막</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_080",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 4,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "송곳니의 드루이드",
+      "initialRawText": "<b>전투의 함성:</b> 내 전장에 야수가 있다면, 7/7로 변신합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_080t",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 7,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "송곳니의 드루이드",
+      "initialRawText": "",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_081",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "길블린 추적자",
+      "initialRawText": "<b>은신</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_082",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "노움 태엽돌이",
+      "initialRawText": "<b>죽음의 메아리:</b> <b>예비 부품</b> 카드를 내 손으로 1장 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_083",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "업그레이드된 수리 로봇",
+      "initialRawText": "<b>전투의 함성:</b> 아군 기계 하수인 하나에게 생명력을 +4 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "32.0.0.217964",
+          "byObservedBuild": "37.0.2.256589",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_084",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 1,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "비행기",
+      "initialRawText": "<b>질풍</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_085",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "안녕로봇",
+      "initialRawText": "<b>도발</b>\n<b>천상의 보호막</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_086",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "공성 전차",
+      "initialRawText": "내가 방어도를 얻을 때마다, 이 하수인이 공격력을 +1 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "31.2.0.212197",
+          "byObservedBuild": "32.0.0.217964",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_087",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "스팀휘들 저격수",
+      "initialRawText": "내 영웅 능력의 대상으로 하수인을 지정할 수 있습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_088",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 6,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "오우거 닌자",
+      "initialRawText": "<b>은신</b>\n50%의 확률로 엉뚱한 적을 공격합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_089",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "광휘의 노움",
+      "initialRawText": "내 턴이 끝날 때 내 영웅에게 <b>비밀</b>이 걸려 있으면 내 영웅의 생명력을 4 회복시킵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "14.6.0.31761",
+          "byObservedBuild": "17.0.0.44222",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_090",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 5,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "완전히 정신 나간 폭격수",
+      "initialRawText": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 6의 피해를 무작위로 나누어 입힙니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_091",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 2,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "자동화 마력제거기 X-21",
+      "initialRawText": "<b>도발</b>\n이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2024-03-12",
+          "changes": {
+            "text": "<b>도발</b>, <b>모면</b>"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "14.6.0.31761",
+          "byObservedBuild": "17.0.0.44222",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "28.6.0.193541",
+          "byObservedBuild": "31.2.0.212197",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_092",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "노움 실험가",
+      "initialRawText": "<b>전투의 함성:</b> 카드를 1장 뽑습니다. 뽑은 카드가 하수인이면 닭으로 변신시킵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_092t",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "닭",
+      "initialRawText": "",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_093",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "표적 허수아비",
+      "initialRawText": "<b>도발</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_094",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 1,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "지브스",
+      "initialRawText": "각 플레이어의 턴이 끝날 때, 그 플레이어의 카드 수가 3장 미만이면 3장이 될 때까지 카드를 뽑습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_095",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "고블린 공병",
+      "initialRawText": "상대편의 손에 카드가 6장 이상 있으면 공격력을 +4 갖습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "14.0.0.29933",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_096",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "누군가 조종하는 벌목기",
+      "initialRawText": "<b>죽음의 메아리:</b> 비용이 2인 무작위 하수인을 하나 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_097",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "꼬마 퇴마사",
+      "initialRawText": "<b>도발</b>\n<b>전투의 함성:</b> 상대편의 <b>죽음의 메아리</b> 하수인 하나당 +1/+1을 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_098",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 1,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "놈리건 보병",
+      "initialRawText": "<b>돌진</b>\n<b>도발</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_099",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 3,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "폭탄 투척수",
+      "initialRawText": "<b>전투의 함성:</b> 무작위 적 하수인 하나에게 피해를 4 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_100",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 4,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "떠 다니는 감시자",
+      "initialRawText": "내 턴에 내 영웅이 피해를 입을 때마다 +2/+2를 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_101",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 4,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "붉은십자군 정화전사",
+      "initialRawText": "<b>전투의 함성</b>: <b>죽음의 메아리</b> 능력을 가진 <b>모든</b> 하수인에게 피해를 2 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_102",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "땜장이 마을 기술자",
+      "initialRawText": "<b>전투의 함성:</b> 내 전장에 기계 하수인이 있다면, +1/+1을 얻고 <b>예비 부품</b> 카드를 내 손으로 1장 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_103",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "초소형 기계",
+      "initialRawText": "각 플레이어의 턴이 시작될 때, 공격력을 +1 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "14.6.0.31761",
+          "byObservedBuild": "17.0.0.44222",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_104",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "밥통고블린",
+      "initialRawText": "공격력이 1인 하수인을 낼 때마다, 그 하수인에게 +2/+2를 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.0.0.7234",
+          "byObservedBuild": "2.1.0.7628",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_105",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 6,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "누군가 조종하는 하늘 골렘",
+      "initialRawText": "<b>죽음의 메아리:</b> 비용이 4인 무작위 하수인을 하나 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_106",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 1,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "고철로봇",
+      "initialRawText": "아군 기계 하수인이 죽을 때마다 +2/+2를 얻습니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_107",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 3,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "강화로봇",
+      "initialRawText": "<b>전투의 함성:</b> 내 다른 하수인들에게 무작위로 <b>질풍</b>, <b>도발</b>, <b>천상의 보호막</b> 중 하나를 부여합니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_108",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "유전자 재결합사",
+      "initialRawText": "<b>전투의 함성:</b> 아군 하수인 하나를 같은 비용의 무작위 하수인으로 변신시킵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_109",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 4,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "꼬마 마법사",
+      "initialRawText": "<b>은신</b>\n<b>주문 공격력 +1</b>",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 3,
+            "attack": 3
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.0.0.7234",
+          "byObservedBuild": "2.1.0.7628",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_110",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 7,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "박사 붐",
+      "initialRawText": "<b>전투의 함성</b>: 1/1 폭탄로봇을 2대 소환합니다. <i>경고: 로봇이 폭발할 수 있음.</i>",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_110t",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "폭탄로봇",
+      "initialRawText": "<b>죽음의 메아리</b>: 무작위 적 하나에게 피해를 1-4 줍니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_111",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 4,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "미미론의 머리",
+      "initialRawText": "내 턴이 시작될 때, 내게 기계 하수인이 3대 이상 있으면 모두 파괴하고 V-07-TR-0N을 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_111t",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 8,
+        "attack": 4,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "V-07-TR-0N",
+      "initialRawText": "<b>돌진</b>\n<b>광풍</b> <i>(한 턴에 4번 공격 가능)</i>",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "14.0.0.29933",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated.",
+        "Raw RARITY=5 through 9.0, absent by 10.0; exact effective change date not established. API rarity remains provisional. Initial and observed enum evidence retained in numeric fixture."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_112",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 7,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "모고르",
+      "initialRawText": "<b>모든</b> 하수인들이 50%의 확률로 엉뚱한 적을 공격합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_113",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 8,
+        "attack": 6,
+        "health": 9,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "전투 절단기 4000",
+      "initialRawText": "공격하는 대상 양옆의 하수인들에게도 피해를 줍니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_114",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 8,
+        "attack": 5,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "스니드의 낡은 벌목기",
+      "initialRawText": "<b>죽음의 메아리:</b> 무작위 전설 하수인을 하나 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2025-03-19",
+          "changes": {
+            "cost": 7
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "32.0.0.217964",
+          "byObservedBuild": "37.0.2.256589",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_115",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 5,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "토쉴리",
+      "initialRawText": "<b>전투의 함성과 죽음의 메아리:</b> <b>예비 부품</b> 카드를 내 손으로 1장 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_116",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 9,
+        "attack": 9,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "기계박사 텔마플러그",
+      "initialRawText": "적 하수인이 죽을 때마다, 오염된 노움을 하나 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_117",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 3,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "가즈로",
+      "initialRawText": "1 마나 주문을 시전할 때마다, 무작위 기계 하수인 하나를 내 손으로 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "7.1.0.17720",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_118",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 6,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "대지종결자 트로그조르",
+      "initialRawText": "상대편이 주문을 시전할 때마다, 힘센 바위턱트로그를 하나 소환합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_119",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 3,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "블링트론 3000",
+      "initialRawText": "<b>전투의 함성:</b> <b>모든</b> 플레이어가 무작위 무기를 하나씩 장착합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "2.4.0.8311",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_120",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 6,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "헤멧 네싱워리",
+      "initialRawText": "<b>전투의 함성:</b> 야수를 1마리 처치합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_121",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 12,
+        "attack": 8,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "거인 태엽돌이",
+      "initialRawText": "상대편의 손에 있는 카드 1장당 비용이 (1)씩 감소합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_122",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 2,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "작은 주문차단자",
+      "initialRawText": "양옆의 하수인들을 주문이나 영웅 능력의 대상으로 지정할 수 없습니다.",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2024-03-12",
+          "changes": {
+            "text": "양옆의 하수인들이 <b>모면</b>을 얻습니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "14.6.0.31761",
+          "byObservedBuild": "17.0.0.44222",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "28.6.0.193541",
+          "byObservedBuild": "31.2.0.212197",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "GVG_123",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "그을음 생성로봇",
+      "initialRawText": "<b>주문 공격력 +1</b>",
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 전장에 다른 기계가 있으면, 무작위 화염 주문을 얻습니다."
+          }
+        },
+        {
+          "date": "2023-09-07",
+          "changes": {
+            "health": 4
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated.",
+        "27.2 official announced health 4 but actual original-set gameplay stayed 3; 27.2.2 client/Collection had 4 before server fix on Korea 2023-09-07."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "PART_001",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "강화 갑옷",
+      "initialRawText": "하수인 하나에게 생명력을 +1 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "PART_002",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "시간 되감개",
+      "initialRawText": "아군 하수인 하나를 내 손으로 가져옵니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "7.1.0.17720",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "PART_003",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "녹슨 호른",
+      "initialRawText": "하수인 하나에게 <b>도발</b>을 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "PART_004",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "요주의 은폐장",
+      "initialRawText": "나의 다음 턴까지 아군 하수인 하나에게 <b>은신</b>을 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "PART_005",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "비상용 냉각제",
+      "initialRawText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "PART_006",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "전환 스위치",
+      "initialRawText": "하수인 하나의 공격력과 생명력을 바꿉니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    },
+    {
+      "id": "PART_007",
+      "releasedAt": "2014-12-10",
+      "initialNumericSpecStatus": "verified against 2.0.0.7234",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "소용돌이 칼날",
+      "initialRawText": "하수인 하나에게 공격력을 +1 부여합니다.",
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range, not an asserted Korean effective date"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; raw release and intermediate observations are preserved in this source document.",
+        "Intermediate cosmetic text chronology is partial; only sourced functional/keyword/name boundaries are dated."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/d97f562658740c21a9791a9d282a624408110af5/CardDefs.xml"
+    }
+  ]
+}
