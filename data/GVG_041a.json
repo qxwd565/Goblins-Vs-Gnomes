@@ -1,1 +1,92 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_041a","dbfId":2176,"name":"수호자 부르기","type":"SPELL","cardClass":"DRUID","rarity":null,"collectible":false,"cost":6,"text":"+5/+5와 <b>도발</b>을 부여합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"NATURE","portrait":"HS17-098.psd:208758fe4c064883b8880cbe9b990c98","set":"GVG","nativeTags":[{"id":48,"name":"마나 비용","value":6},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5},{"id":1635,"name":"주문 속성","value":4}],"races":[],"race":"","classes":[],"art":"art/GVG_041a.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS17-098.psd:208758fe4c064883b8880cbe9b990c98","goldenMaterial":"GVG_041a_PremiumCard.mat:8a5813cd769ef894d887ab9f59a22c0c","goldenAnimation":"GVG_041a_PremiumCard.asset:651a1f59fd691564db5f29cbff804fbd"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Call the Guardians",
+  "card": {
+    "id": "GVG_041a",
+    "dbfId": 2176,
+    "name": "수호자 부르기",
+    "text": "+5/+5와 <b>도발</b>을 부여합니다.",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": null,
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 6,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS17-098.psd:208758fe4c064883b8880cbe9b990c98",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 4
+      }
+    ],
+    "nativeRawText": "+5/+5와 <b>도발</b>을 부여합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2021-03-26": "taxonomy introduction"
+    }
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

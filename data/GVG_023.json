@@ -1,1 +1,105 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_023","dbfId":1988,"name":"고블린 자동 이발기","type":"MINION","cardClass":"ROGUE","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>전투의 함성:</b>\n내 무기에 공격력을\n+1 부여합니다.","attack":3,"health":2,"durability":0,"armor":0,"flavor":"고블린이 아니라면 고블린과 키가 똑같아질 수도 있습니다.","spellSchool":"","portrait":"HS3-024_D.psd:0632bfbae86a9724cbea26a7658f5006","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":7},{"id":200,"name":"종족","value":17},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["MECHANICAL"],"race":"기계","classes":[],"art":"art/GVG_023.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-024_D.psd:0632bfbae86a9724cbea26a7658f5006","goldenMaterial":"GVG_023_PremiumCard.mat:d551d1d924667a14ebd09c662d39b4fc","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Goblin Auto-Barber",
+  "card": {
+    "id": "GVG_023",
+    "dbfId": 1988,
+    "name": "고블린 자동 이발기",
+    "text": "<b>전투의 함성:</b>\n내 무기에 공격력을\n+1 부여합니다.",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "기계",
+    "races": [
+      "MECHANICAL"
+    ],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-024_D.psd:0632bfbae86a9724cbea26a7658f5006",
+    "flavor": "고블린이 아니라면 고블린과 키가 똑같아질 수도 있습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b>\n내 무기에 공격력을\n+1 부여합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

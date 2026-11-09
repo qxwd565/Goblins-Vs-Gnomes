@@ -1,1 +1,90 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_092t","dbfId":2240,"name":"닭","type":"MINION","cardClass":"NEUTRAL","rarity":null,"collectible":false,"cost":1,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS3-059_D.psd:ed1f653a962034648bb5d4a593c04733","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GVG_092t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-059_D.psd:ed1f653a962034648bb5d4a593c04733","goldenMaterial":"Mekka4t_PremiumCard.mat:f499f174901b2d848b9605b0fb9aeb69","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Chicken",
+  "card": {
+    "id": "GVG_092t",
+    "dbfId": 2240,
+    "name": "닭",
+    "text": "",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": null,
+    "race": "야수",
+    "races": [
+      "BEAST"
+    ],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-059_D.psd:ed1f653a962034648bb5d4a593c04733",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "nativeRawText": "",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,1 +1,110 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_046","dbfId":2014,"name":"백수의 왕","type":"MINION","cardClass":"HUNTER","rarity":"RARE","collectible":true,"cost":3,"text":"<b>도발</b>, 내 다른 야수\n하나당 공격력을 +1 얻습니다.","attack":1,"health":5,"durability":0,"armor":0,"flavor":"당연하지만 10년째 집에서 놀고 계신 우리 삼촌을 말하는 게 아닙니다.","spellSchool":"","portrait":"W18_a152_D.psd:5b365e7551812db409485bf3b2eca6e9","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":3},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":3},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GVG_046.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W18_a152_D.psd:5b365e7551812db409485bf3b2eca6e9","goldenMaterial":"GVG_046_PremiumCard.mat:afecf558a7f577f4d9cf4aa234a5302e","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "King of Beasts",
+  "card": {
+    "id": "GVG_046",
+    "dbfId": 2014,
+    "name": "백수의 왕",
+    "text": "<b>도발</b>, 내 다른 야수\n하나당 공격력을 +1 얻습니다.",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "RARE",
+    "race": "야수",
+    "races": [
+      "BEAST"
+    ],
+    "spellSchool": "",
+    "cost": 3,
+    "attack": 1,
+    "health": 5,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W18_a152_D.psd:5b365e7551812db409485bf3b2eca6e9",
+    "flavor": "당연하지만 10년째 집에서 놀고 계신 우리 삼촌을 말하는 게 아닙니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>도발</b>, 내 다른 야수\n하나당 공격력을 +1 얻습니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,1 +1,78 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"PART_005","dbfId":2155,"name":"비상용 냉각제","type":"SPELL","cardClass":"NEUTRAL","rarity":null,"collectible":false,"cost":1,"text":"하수인을 <b>빙결</b> 상태로 만듭니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS3-078_D.psd:ec675a20e552a244590d4eefb2e895eb","set":"GVG","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":5},{"id":208,"name":"빙결","value":1}],"races":[],"race":"","classes":[],"art":"art/PART_005.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-078_D.psd:ec675a20e552a244590d4eefb2e895eb","goldenMaterial":"PART_005_PremiumCard.mat:c84867a3937d1b9419216a7401352d81","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Emergency Coolant",
+  "card": {
+    "id": "PART_005",
+    "dbfId": 2155,
+    "name": "비상용 냉각제",
+    "text": "하수인을 <b>빙결</b> 상태로 만듭니다.",
+    "type": "SPELL",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": null,
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-078_D.psd:ec675a20e552a244590d4eefb2e895eb",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "하수인을 <b>빙결</b> 상태로 만듭니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

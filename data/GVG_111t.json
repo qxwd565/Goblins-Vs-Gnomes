@@ -1,1 +1,105 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_111t","dbfId":2232,"name":"V-07-TR-0N","type":"MINION","cardClass":"NEUTRAL","rarity":null,"collectible":false,"cost":8,"text":"<b>돌진</b>\n<b>광풍</b>","attack":4,"health":8,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS3-013_D.psd:f54a77af9d6493c439495b1d829405a9","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":1},{"id":197,"name":"돌진","value":1},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":17},{"id":202,"name":"카드 유형","value":4},{"id":1207,"name":"광풍","value":1}],"races":["MECHANICAL"],"race":"기계","classes":[],"art":"art/GVG_111t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-013_D.psd:f54a77af9d6493c439495b1d829405a9","goldenMaterial":"GVG_111t_PremiumCard_NEW.mat:7ad6e021e920d714cba508746ff1bf6c","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "V-07-TR-0N",
+  "card": {
+    "id": "GVG_111t",
+    "dbfId": 2232,
+    "name": "V-07-TR-0N",
+    "text": "<b>돌진</b>\n<b>광풍</b>",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": null,
+    "race": "기계",
+    "races": [
+      "MECHANICAL"
+    ],
+    "spellSchool": "",
+    "cost": 8,
+    "attack": 4,
+    "health": 8,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-013_D.psd:f54a77af9d6493c439495b1d829405a9",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 1207,
+        "name": "광풍",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>돌진</b>\n<b>광풍</b>",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

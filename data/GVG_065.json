@@ -1,1 +1,98 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_065","dbfId":2033,"name":"오우거 투사","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":3,"text":"50%의 확률로 엉뚱한 적을 공격합니다.","attack":4,"health":4,"durability":0,"armor":0,"flavor":"실은 엉뚱한 대상이 아닙니다. 그냥 처음 눈에 띄는 대상입니다.","spellSchool":"","portrait":"W18_a138_D.psd:92787942f964ec0469e0fb8b569009e7","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":389,"name":"FORGETFUL","value":1}],"races":[],"race":"","classes":[],"art":"art/GVG_065.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W18_a138_D.psd:92787942f964ec0469e0fb8b569009e7","goldenMaterial":"GVG_065_PremiumCard.mat:483fa8532f85409488c837ef8e52ad29","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Ogre Brute",
+  "card": {
+    "id": "GVG_065",
+    "dbfId": 2033,
+    "name": "오우거 투사",
+    "text": "50%의 확률로 엉뚱한 적을 공격합니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 3,
+    "attack": 4,
+    "health": 4,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W18_a138_D.psd:92787942f964ec0469e0fb8b569009e7",
+    "flavor": "실은 엉뚱한 대상이 아닙니다. 그냥 처음 눈에 띄는 대상입니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 389,
+        "name": "FORGETFUL",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "50%의 확률로 엉뚱한 적을 공격합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

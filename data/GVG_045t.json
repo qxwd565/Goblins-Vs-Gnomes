@@ -1,1 +1,95 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_045t","dbfId":2270,"name":"임프","type":"MINION","cardClass":"WARLOCK","rarity":null,"collectible":false,"cost":1,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS3-048_T.psd:c0907c1d997d4e148adb0404bc280397","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":15},{"id":202,"name":"카드 유형","value":4},{"id":1965,"name":"임프","value":1}],"races":["DEMON"],"race":"악마","classes":[],"art":"art/GVG_045t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-048_T.psd:c0907c1d997d4e148adb0404bc280397","goldenMaterial":"GVG_045t_PremiumCard.mat:344ce889cfb35664496deafd4b2e571c","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Imp",
+  "card": {
+    "id": "GVG_045t",
+    "dbfId": 2270,
+    "name": "임프",
+    "text": "",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": null,
+    "race": "악마",
+    "races": [
+      "DEMON"
+    ],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-048_T.psd:c0907c1d997d4e148adb0404bc280397",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 1965,
+        "name": "임프",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

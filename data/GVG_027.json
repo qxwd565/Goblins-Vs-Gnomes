@@ -1,1 +1,105 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_027","dbfId":1992,"name":"강철 사부","type":"MINION","cardClass":"ROGUE","rarity":"RARE","collectible":true,"cost":3,"text":"내 턴이 끝날 때,\n다른 아군 기계에 +2/+2를 부여합니다.","attack":2,"health":2,"durability":0,"armor":0,"flavor":"사부님께선 수많은 기계 제자들이 모인 자리에서 침묵을 깨고 말씀하셨습니다. 01000111101001001","spellSchool":"","portrait":"HS3-065_D.psd:64d41b19bad41334e9b0ffb5748118c0","set":"GVG","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":7},{"id":200,"name":"종족","value":17},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1}],"races":["MECHANICAL"],"race":"기계","classes":[],"art":"art/GVG_027.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-065_D.psd:64d41b19bad41334e9b0ffb5748118c0","goldenMaterial":"GVG_027_PremiumCard.mat:0ccaf3c3551ea7243b753fad6f1f7c14","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Iron Sensei",
+  "card": {
+    "id": "GVG_027",
+    "dbfId": 1992,
+    "name": "강철 사부",
+    "text": "내 턴이 끝날 때,\n다른 아군 기계에 +2/+2를 부여합니다.",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "RARE",
+    "race": "기계",
+    "races": [
+      "MECHANICAL"
+    ],
+    "spellSchool": "",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-065_D.psd:64d41b19bad41334e9b0ffb5748118c0",
+    "flavor": "사부님께선 수많은 기계 제자들이 모인 자리에서 침묵을 깨고 말씀하셨습니다. 01000111101001001",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내 턴이 끝날 때,\n다른 아군 기계에 +2/+2를 부여합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

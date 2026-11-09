@@ -1,1 +1,105 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_002","dbfId":1928,"name":"꽁꽁로봇","type":"MINION","cardClass":"MAGE","rarity":"COMMON","collectible":true,"cost":2,"text":"이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.","attack":2,"health":3,"durability":0,"armor":0,"flavor":"천천히 뒤뚱거리며 이런 소리를 냅니다. \"칙칙폭폭! 칙칙폭폭!\"","spellSchool":"","portrait":"HS3-022_D.psd:ad58feb0618395143917b1479975a4e9","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":4},{"id":200,"name":"종족","value":17},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":208,"name":"빙결","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["MECHANICAL"],"race":"기계","classes":[],"art":"art/GVG_002.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-022_D.psd:ad58feb0618395143917b1479975a4e9","goldenMaterial":"GVG_002_PremiumCard.mat:5dc257db454867946a1664cfb314b871","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Snowchugger",
+  "card": {
+    "id": "GVG_002",
+    "dbfId": 1928,
+    "name": "꽁꽁로봇",
+    "text": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "기계",
+    "races": [
+      "MECHANICAL"
+    ],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-022_D.psd:ad58feb0618395143917b1479975a4e9",
+    "flavor": "천천히 뒤뚱거리며 이런 소리를 냅니다. \"칙칙폭폭! 칙칙폭폭!\"",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,1 +1,98 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_004","dbfId":1934,"name":"고블린 폭발법사","type":"MINION","cardClass":"MAGE","rarity":"RARE","collectible":true,"cost":4,"text":"[x]<b>전투의 함성:</b> 내 전장에\n기계가 있으면, 모든 적에게\n6의 피해를 무작위로\n나누어 입힙니다.","attack":5,"health":4,"durability":0,"armor":0,"flavor":"만약 주위에 폭탄이 없다면, 아무 고블린 발명품이나 집어서 던지세요!","spellSchool":"","portrait":"goblin_blastmage_D.psd:4a95ee2e221927840a06562402e66194","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GVG_004.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"goblin_blastmage_D.psd:4a95ee2e221927840a06562402e66194","goldenMaterial":"GVG_004_PremiumCard.mat:37779495bf7bddc44af7853497209aab","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Goblin Blastmage",
+  "card": {
+    "id": "GVG_004",
+    "dbfId": 1934,
+    "name": "고블린 폭발법사",
+    "text": "[x]<b>전투의 함성:</b> 내 전장에\n기계가 있으면, 모든 적에게\n6의 피해를 무작위로\n나누어 입힙니다.",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "RARE",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "goblin_blastmage_D.psd:4a95ee2e221927840a06562402e66194",
+    "flavor": "만약 주위에 폭탄이 없다면, 아무 고블린 발명품이나 집어서 던지세요!",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]<b>전투의 함성:</b> 내 전장에\n기계가 있으면, 모든 적에게\n6의 피해를 무작위로\n나누어 입힙니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,1 +1,98 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_011","dbfId":1936,"name":"축소술사","type":"MINION","cardClass":"PRIEST","rarity":"COMMON","collectible":true,"cost":2,"text":"[x]<b>전투의 함성:</b> 이번 턴에\n하수인에게 공격력을\n-3 부여합니다.","attack":3,"health":2,"durability":0,"armor":0,"flavor":"자기보다 큰 건 무조건 축소하는 고약한 영감입니다. 만약 마주친다면 기어가시는 걸 추천합니다.","spellSchool":"","portrait":"HS3-034_D.psd:53ee6f49b345d74468b9bff5e74027e4","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GVG_011.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-034_D.psd:53ee6f49b345d74468b9bff5e74027e4","goldenMaterial":"GVG_011_PremiumCard.mat:03bed501a94d1a74cbe36cafc28f6c14","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Shrinkmeister",
+  "card": {
+    "id": "GVG_011",
+    "dbfId": 1936,
+    "name": "축소술사",
+    "text": "[x]<b>전투의 함성:</b> 이번 턴에\n하수인에게 공격력을\n-3 부여합니다.",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-034_D.psd:53ee6f49b345d74468b9bff5e74027e4",
+    "flavor": "자기보다 큰 건 무조건 축소하는 고약한 영감입니다. 만약 마주친다면 기어가시는 걸 추천합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]<b>전투의 함성:</b> 이번 턴에\n하수인에게 공격력을\n-3 부여합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

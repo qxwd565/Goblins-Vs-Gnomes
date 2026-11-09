@@ -1,1 +1,116 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_006","dbfId":1940,"name":"기계소환로봇","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":4,"text":"내 기계의 비용이\n(1) 감소합니다.","attack":4,"health":4,"durability":0,"armor":0,"flavor":"기계를 소환하는 기계라니? 다음은 뭘까요? 도넛을 소환하는 도넛? 흐음...","spellSchool":"","portrait":"HS3-074_D.psd:bce847670f0a71643a05c8848f665e53","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":17},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":362,"name":"지속 효과","value":1}],"races":["MECHANICAL"],"race":"기계","classes":[],"art":"art/GVG_006.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-074_D.psd:bce847670f0a71643a05c8848f665e53","goldenMaterial":"GVG_006_PremiumCard.mat:42b3773fda81313499dca47911ae5c07","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Mechwarper",
+  "card": {
+    "id": "GVG_006",
+    "dbfId": 1940,
+    "name": "기계소환로봇",
+    "text": "내 기계의 비용이\n(1) 감소합니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "기계",
+    "races": [
+      "MECHANICAL"
+    ],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-074_D.psd:bce847670f0a71643a05c8848f665e53",
+    "flavor": "기계를 소환하는 기계라니? 다음은 뭘까요? 도넛을 소환하는 도넛? 흐음...",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내 기계의 비용이\n(1) 감소합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2024-03-12",
+        "changes": {
+          "cost": 4,
+          "attack": 4,
+          "health": 4
+        }
+      }
+    ],
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2024-03-12": "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

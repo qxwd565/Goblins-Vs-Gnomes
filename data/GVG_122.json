@@ -1,1 +1,108 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_122","dbfId":2234,"name":"작은 주문차단자","type":"MINION","cardClass":"MAGE","rarity":"EPIC","collectible":true,"cost":4,"text":"양옆의 하수인들이 <b>모면</b>을 얻습니다.","attack":2,"health":5,"durability":0,"armor":0,"flavor":"마법사들 사이에서 악명이 높습니다. 식당에서도 악명이 높습니다.","spellSchool":"","portrait":"W7_161_D.psd:c35e26acefe5e3b4f8934ce89db609fa","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":350,"name":"인접 강화 효과","value":1},{"id":362,"name":"지속 효과","value":1},{"id":1211,"name":"모면","value":1}],"races":[],"race":"","classes":[],"art":"art/GVG_122.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W7_161_D.psd:c35e26acefe5e3b4f8934ce89db609fa","goldenMaterial":"GVG_122_PremiumCard.mat:0a52c88d3bdcf204b86c418de63e1807","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Wee Spellstopper",
+  "card": {
+    "id": "GVG_122",
+    "dbfId": 2234,
+    "name": "작은 주문차단자",
+    "text": "양옆의 하수인들이 <b>모면</b>을 얻습니다.",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "EPIC",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 4,
+    "attack": 2,
+    "health": 5,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W7_161_D.psd:c35e26acefe5e3b4f8934ce89db609fa",
+    "flavor": "마법사들 사이에서 악명이 높습니다. 식당에서도 악명이 높습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 350,
+        "name": "인접 강화 효과",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      },
+      {
+        "id": 1211,
+        "name": "모면",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "양옆의 하수인들이 <b>모면</b>을 얻습니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "default": {
+    "date": "2014-12-10",
+    "status": "verified"
+  },
+  "prefixes": {},
+  "cards": {},
+  "sources": {
+    "main": "https://hearthstone.blizzard.com/ko-kr/news/16801412"
+  }
+}

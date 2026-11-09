@@ -1,1 +1,105 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_051","dbfId":2019,"name":"전쟁로봇","type":"MINION","cardClass":"WARRIOR","rarity":"COMMON","collectible":true,"cost":1,"text":"피해를 받은 상태면 공격력을 +1 얻습니다.","attack":1,"health":3,"durability":0,"armor":0,"flavor":"용도에 비해 너무 귀엽다는 게 유일한 단점입니다.","spellSchool":"","portrait":"HS3-028_D.psd:10f4997e8a676fb409794805a2284475","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":10},{"id":200,"name":"종족","value":17},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":212,"name":"격노","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["MECHANICAL"],"race":"기계","classes":[],"art":"art/GVG_051.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-028_D.psd:10f4997e8a676fb409794805a2284475","goldenMaterial":"GVG_051_PremiumCard.mat:7c17bf1b6cd70ae42bfac8168f40ed0b","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Warbot",
+  "card": {
+    "id": "GVG_051",
+    "dbfId": 2019,
+    "name": "전쟁로봇",
+    "text": "피해를 받은 상태면 공격력을 +1 얻습니다.",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "기계",
+    "races": [
+      "MECHANICAL"
+    ],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-028_D.psd:10f4997e8a676fb409794805a2284475",
+    "flavor": "용도에 비해 너무 귀엽다는 게 유일한 단점입니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 212,
+        "name": "격노",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "피해를 받은 상태면 공격력을 +1 얻습니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

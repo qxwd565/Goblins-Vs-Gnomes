@@ -1,1 +1,118 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_082","dbfId":2050,"name":"태엽돌이 노움","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"<b>죽음의 메아리:</b> <b>예비_부품</b>을 내 손으로 가져옵니다.","attack":2,"health":1,"durability":0,"armor":0,"flavor":"이동식 은행 겸 상점 로봇입니다.","spellSchool":"","portrait":"W14_a242_D.psd:15e636a537dd53d4caa96039b02c54c7","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":17},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1},{"id":388,"name":"예비 부품","value":1}],"races":["MECHANICAL"],"race":"기계","classes":[],"art":"art/GVG_082.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W14_a242_D.psd:15e636a537dd53d4caa96039b02c54c7","goldenMaterial":"GVG_082_PremiumCard.mat:7d87c6088d9b4bb438e6b6320fd278c4","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Clockwork Gnome",
+  "card": {
+    "id": "GVG_082",
+    "dbfId": 2050,
+    "name": "태엽돌이 노움",
+    "text": "<b>죽음의 메아리:</b> <b>예비_부품</b>을 내 손으로 가져옵니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "기계",
+    "races": [
+      "MECHANICAL"
+    ],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W14_a242_D.psd:15e636a537dd53d4caa96039b02c54c7",
+    "flavor": "이동식 은행 겸 상점 로봇입니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 388,
+        "name": "예비 부품",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>죽음의 메아리:</b> <b>예비_부품</b>을 내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [
+    2150,
+    2151,
+    2156,
+    2153,
+    2155,
+    2154,
+    2152
+  ],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "set": "Goblins Vs Gnomes",
+  "repository": "qxwd565/Goblins-Vs-Gnomes",
+  "sourceRecords": 143,
+  "sourceVariants": 0,
+  "totalSourceJSON": 143,
+  "collectible": 123,
+  "uncollectible": 20,
+  "pendingReleaseIds": [],
+  "patchVerifiedIds": [
+    "GVG_006"
+  ],
+  "patchVerifiedCardCount": 1,
+  "patchEvents": 1,
+  "excludedDifferentNativeSet": [],
+  "historicalAccuracy": "Historical initial snapshots are provisional, except fields directly reconstructed from cited patches; no exhaustive patch verification claimed",
+  "existingArtworkAndGoldenPreserved": true,
+  "committedPatchEvents": 19,
+  "skippedUnconfirmedFields": 1
+}

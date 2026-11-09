@@ -1,1 +1,105 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_018","dbfId":2172,"name":"고통의 여왕","type":"MINION","cardClass":"WARLOCK","rarity":"RARE","collectible":true,"cost":2,"text":"<b>생명력 흡수</b>","attack":1,"health":4,"durability":0,"armor":0,"flavor":"네 고통이 곧 내 기쁨일지어다!","spellSchool":"","portrait":"CLA-005.psd:ac13447db4bf43cca25ac0430d060177","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":15},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":685,"name":"생명력 흡수","value":1}],"races":["DEMON"],"race":"악마","classes":[],"art":"art/GVG_018.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"CLA-005.psd:ac13447db4bf43cca25ac0430d060177","goldenMaterial":"GVG_018_PremiumCard.mat:c8565d53251477b48a54441fbd1cc869","goldenAnimation":"GVG_018_PremiumCard.asset:81d4a5d019ab6ca42a290ca08ca2562c"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Queen of Pain",
+  "card": {
+    "id": "GVG_018",
+    "dbfId": 2172,
+    "name": "고통의 여왕",
+    "text": "<b>생명력 흡수</b>",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "RARE",
+    "race": "악마",
+    "races": [
+      "DEMON"
+    ],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 1,
+    "health": 4,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "CLA-005.psd:ac13447db4bf43cca25ac0430d060177",
+    "flavor": "네 고통이 곧 내 기쁨일지어다!",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>생명력 흡수</b>",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

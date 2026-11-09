@@ -1,1 +1,93 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_013","dbfId":1932,"name":"톱니장인","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"내 전장에 기계가 있으면 공격력을 +2 얻습니다.","attack":1,"health":2,"durability":0,"armor":0,"flavor":"톱니바퀴, 체인 기어가 사라졌다는 건, 곧 로봇과 거미 전차들이 득시글거릴 거란 겁니다.","spellSchool":"","portrait":"HS3-009_D.psd:679ff4f45fad6f242bbcd705c5e11f71","set":"GVG","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GVG_013.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS3-009_D.psd:679ff4f45fad6f242bbcd705c5e11f71","goldenMaterial":"GVG_069_PremiumCard.mat:52de62278460af943bd21e9d1d5ef97f","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Cogmaster",
+  "card": {
+    "id": "GVG_013",
+    "dbfId": 1932,
+    "name": "톱니장인",
+    "text": "내 전장에 기계가 있으면 공격력을 +2 얻습니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "COMMON",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS3-009_D.psd:679ff4f45fad6f242bbcd705c5e11f71",
+    "flavor": "톱니바퀴, 체인 기어가 사라졌다는 건, 곧 로봇과 거미 전차들이 득시글거릴 거란 겁니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내 전장에 기계가 있으면 공격력을 +2 얻습니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

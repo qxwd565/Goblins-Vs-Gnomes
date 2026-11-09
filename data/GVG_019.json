@@ -1,1 +1,97 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GVG_019","dbfId":1985,"name":"악마의 심장","type":"SPELL","cardClass":"WARLOCK","rarity":"EPIC","collectible":true,"cost":5,"text":"하수인에게 피해를 $5 줍니다. 대상이 아군 악마면, +5/+5를 부여합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"친악마 단체에 소속된 사람들은 모두 흑마법사라는 사실, 아셨나요? 놀랍네요.","spellSchool":"SHADOW","portrait":"W19_a089_D.psd:2909d442bbd2e9243b83233bf542cc77","set":"GVG","nativeTags":[{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/GVG_019.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W19_a089_D.psd:2909d442bbd2e9243b83233bf542cc77","goldenMaterial":"GVG_019_PremiumCard.mat:827df75e2f629b3498289009f42ca0de","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Demonheart",
+  "card": {
+    "id": "GVG_019",
+    "dbfId": 1985,
+    "name": "악마의 심장",
+    "text": "하수인에게 피해를 $5 줍니다. 대상이 아군 악마면, +5/+5를 부여합니다.",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "classes": [],
+    "nativeSetId": 13,
+    "set": "GVG",
+    "rarity": "EPIC",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 5,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W19_a089_D.psd:2909d442bbd2e9243b83233bf542cc77",
+    "flavor": "친악마 단체에 소속된 사람들은 모두 흑마법사라는 사실, 아셨나요? 놀랍네요.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "nativeRawText": "하수인에게 피해를 $5 줍니다. 대상이 아군 악마면, +5/+5를 부여합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-12-10",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2021-03-26": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 13,
+    "slug": "goblins-vs-gnomes",
+    "name": "고블린 대 노움",
+    "type": "expansion",
+    "englishName": "Goblins Vs Gnomes"
+  },
+  "setOrder": 41,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}
