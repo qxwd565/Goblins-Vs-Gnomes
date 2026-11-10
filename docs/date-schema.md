@@ -98,3 +98,8 @@ Checks cover 143 original documents, all 55 events, 8,580 all-card/global-date p
 For the unchanged PHP parser, generate a fixture with `python3 tools/test-legacy-compatibility.py --fixture /tmp/gvg-compatibility.json`, then run `php tools/test-legacy-plugin.php /path/to/unmodified/plugin /tmp/gvg-compatibility.json`. The offline harness compares all 143 imported records to the original import, checks assets, and tests all 8,580 date cases. Local validation uses PHP WASM 8.5.12 and passes 8,581 checks (8,580 historical cases plus original import equality). The pinned unmodified plugin source is `78ce6fdc4e70f689880a70d6f22aa77a6c75e337`. This is not a live browser, WordPress, database or deployment test.
 
 These checks are bounded evidence, not exhaustive every-build, exact-wording, artwork, temporary-format-legality or rule-engine bug chronology. Migration success does not promote incomplete historical baselines. Future approved gameplay changes require reviewing the expected-difference tests rather than freezing current output.
+
+
+## Piloted Shredder display chronology (GVG_096)
+
+The base conversion had backdated the present-day Korean text and a line break to 2014-12-10. Corrected text observations, without changing gameplay, are recorded on 2014-12-10 (original single line), 2015-04-01, 2015-08-19, 2016-08-10 and 2018-10-03 (first attested two-line presentation). Sources are the client builds 2.0.0.7234, 2.4.0.8311, 3.0.0.9786, 6.0.0.13921 and 12.2.0.26996 already preserved in metadata/GVG_096.json. The original archived source, current-card import, gameplay numbers and other cards remain unchanged. Independent boundary, unchanged-current and old-consumer assertions explicitly allow only this reviewed text history.

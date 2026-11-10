@@ -52,6 +52,8 @@ def main(fixture=None):
         for d in [raw['releasedAt']]+[p['date'] for p in raw['patches']]:
             dates.update((date.fromisoformat(d)+timedelta(days=n)).isoformat() for n in [-1,0,1])
     dates.update((date.fromisoformat('2023-02-15')+timedelta(days=n)).isoformat() for n in (-1,0,1))
+    for when in ('2015-04-01','2015-08-19','2016-08-10','2018-10-03'):
+        dates.update((date.fromisoformat(when)+timedelta(days=n)).isoformat() for n in (-1,0,1))
     corrections=load(ROOT/'tools/gvg-date-recheck.json')['historyDateCorrections']
     cases=[];art_checks=0;corrected_cases=0
     for current in catalog['cards']:
@@ -66,6 +68,11 @@ def main(fixture=None):
         for day in sorted(dates):
             actual=old_resolve(current,rows,day)
             before=old_resolve(original_by_id[cid],original_history.get(dbf,{}).get('history',[]),day)
+            if cid=='GVG_096' and '2014-12-10'<=day<'2018-10-03':
+                # Keep the approved original current import and correct only
+                # historical text exposed by the pre-existing PHP parser.
+                timeline=load(ROOT/'data/GVG_096.json')
+                before['text']=next(change['text'] for d,change in reversed(list(timeline.items())) if d<=day and 'text' in change)
             # Only the reviewed secondary-race dates intentionally differ.
             if cid in corrections and '2022-11-30'<=day<'2023-02-15':
                 baseline=load(ROOT/'metadata'/(cid+'.json'))['originalSource']['card']

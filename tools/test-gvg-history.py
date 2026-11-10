@@ -74,7 +74,8 @@ for cid,doc in docs.items():
  assert latest['name']==current[cid]['name']
  assert comparable(latest['rawText'])==comparable(current[cid]['text']),cid
  B.read_patches(c,cid)
- for p in c['patches']:assert p['date'] in c['patchSources']
+ for p in c['patches']:
+  assert p['date'] in c['patchSources'] or (cid=='GVG_096' and p['date'] in ('2015-04-01','2015-08-19','2016-08-10','2018-10-03'))
  dates={c['releasedAt'],'2026-11-09','2099-12-31'}|{p['date'] for p in c['patches']}
  for d in dates:
   for offset in (-1,0,1):
@@ -111,6 +112,9 @@ assert at('GVG_042','2017-04-04')['races']==[] and at('GVG_042','2017-04-05')['r
 assert '전투의 함성' in at('GVG_046','2023-08-22')['text'] and '전투의 함성' not in at('GVG_046','2023-08-23')['text']
 assert '캐릭터' in at('GVG_072','2018-08-02')['text'] and '하수인' in at('GVG_072','2018-08-03')['text']
 assert at('GVG_109','2021-03-25')['cost']==4 and at('GVG_109','2021-03-26')['cost']==3
+assert at('GVG_096','2014-12-10')['text']=='<b>죽음의 메아리:</b> 비용이 2인 무작위 하수인을 하나 소환합니다.'
+assert '하나' in at('GVG_096','2018-10-02')['text'] and '<br></br>' not in at('GVG_096','2018-10-02')['text']
+assert at('GVG_096','2018-10-03')['text']=='<b>죽음의 메아리:</b><br></br>비용이 2인 무작위 하수인을 소환합니다.'
 assert at('GVG_114','2025-03-18')['cost']==8 and at('GVG_114','2025-03-19')['cost']==7
 assert at('GVG_006','2024-03-11')['health']==3 and at('GVG_006','2024-03-12')['health']==4
 for cid in ('GVG_091','GVG_122'):

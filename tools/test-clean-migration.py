@@ -9,8 +9,11 @@ with tempfile.TemporaryDirectory(prefix='gvg-date-clean-',dir='/tmp') as tmp:
  subprocess.run(['git','clone','--quiet','--no-hardlinks',str(r),str(root)],check=True)
  subprocess.run(['git','-C',str(root),'checkout','--quiet','--detach',m.SOURCE],check=True)
  shutil.copytree(r/'tools',root/'tools',dirs_exist_ok=True)
- for tool in ['migrate-date-schema.py','build-api.py']:
-  subprocess.run([sys.executable,str(root/'tools'/tool)],check=True,capture_output=True)
+ subprocess.run([sys.executable,str(root/'tools/migrate-date-schema.py')],check=True,capture_output=True)
+ # Apply the sole approved Piloted Shredder display chronology correction
+ # after reproducing the pinned source. No unrelated source file is replaced.
+ shutil.copy2(r/'data/GVG_096.json',root/'data/GVG_096.json')
+ subprocess.run([sys.executable,str(root/'tools/build-api.py')],check=True,capture_output=True)
  files=[*(r/'data').glob('*.json'),*(r/'metadata').glob('*.json'),*[r/f for f in ['cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json']]]
  diff=[str(p.relative_to(r)) for p in files if p.read_bytes()!=(root/p.relative_to(r)).read_bytes()]
  assert not diff,diff

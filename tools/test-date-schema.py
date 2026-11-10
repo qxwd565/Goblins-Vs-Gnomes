@@ -31,6 +31,18 @@ def independent_expected(document, day):
         if raw['id'] in ('GVG_030','GVG_034','GVG_048','GVG_076') and effective=='2022-11-30':effective='2023-02-15'
         if day is None or effective<=day:
             raw.update(copy.deepcopy(event['changes']))
+    # Reviewed Korean text snapshots for Piloted Shredder.  The archived
+    # constructed card source contains only its modern display text.
+    if raw['id']=='GVG_096':
+        corrected=(
+            ('2014-12-10','<b>죽음의 메아리:</b> 비용이 2인 무작위 하수인을 하나 소환합니다.'),
+            ('2015-04-01','<b>죽음의 메아리:</b> 무작위로 선택된 비용 2짜리 하수인 하나를 소환합니다.'),
+            ('2015-08-19','<b>죽음의 메아리:</b> 비용이 2인 하수인 하나를 무작위로 소환합니다.'),
+            ('2016-08-10','<b>죽음의 메아리:</b> 비용이 2인 무작위 하수인을 하나 소환합니다.'),
+            ('2018-10-03','<b>죽음의 메아리:</b><br></br>비용이 2인 무작위 하수인을 소환합니다.'),
+        )
+        for effective,text in corrected:
+            if day is None or effective<=day:raw['text']=text
     # Independent field/presence oracle, not the migration's project/fold.
     fields={'id','dbfId','name','type','cardClass','classes','rarity','collectible',
             'cost','attack','health','durability','armor','text','races','race',
@@ -148,6 +160,8 @@ def main():
     for doc in originals.values():
         for d in [doc['card']['releasedAt']]+[e['date'] for e in doc['card']['patches']]:
             dates.update((date.fromisoformat(d)+timedelta(days=n)).isoformat() for n in (-1,0,1))
+    for when in ('2015-04-01','2015-08-19','2016-08-10','2018-10-03'):
+        dates.update((date.fromisoformat(when)+timedelta(days=n)).isoformat() for n in (-1,0,1))
     # Include old and corrected boundary triples; preserving source evidence
     # does not require preserving a disproven effective date.
     for when in ('2023-02-15',):
@@ -179,7 +193,7 @@ def main():
             assert next(iter(timeline.values()))['rarity'] is None
         assert meta['release']=={'date':doc['card']['releasedAt'],'status':'verified'}
         assert list(timeline)==sorted(timeline)
-        assert len(timeline)==1+len(doc['card']['patches'])
+        assert len(timeline)==1+len(doc['card']['patches'])+(4 if cid=='GVG_096' else 0)
         validate_timeline(timeline)
         patches+=len(timeline)-1
         for day in sorted(dates):
@@ -214,7 +228,7 @@ def main():
     assert sum(c['chooseOne'] is True for c in current.values())==3
     assert sum(c['chooseOne'] is False for c in current.values())==140
     assert all('chooseOne' not in c for c in source_catalog.values())
-    assert patches==55
+    assert patches==59  # four attested historic text/line-break revisions for GVG_096
     assert types=={'MINION':100,'SPELL':38,'WEAPON':5}
     # Real zeroes survive; spells have no invented combat fields, and the
     # five source weapons already have genuine durability (no Legacy decoder).
