@@ -3,7 +3,7 @@
     "id": "GVG_078",
     "dbfId": 2046,
     "name": "기계설인",
-    "text": "<b>죽음의 메아리:</b><br></br>각 플레이어에게 <b>예비_부품</b>을 줍니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>각 플레이어에게 <b>예비 부품</b>을 줍니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
