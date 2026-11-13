@@ -10,6 +10,15 @@ from importlib.util import spec_from_file_location,module_from_spec
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='0149620ba64f983ef09e715452d7581e3870b5fb'
 BASE_URL='https://raw.githubusercontent.com/qxwd565/Goblins-Vs-Gnomes/main/'
+APPROVED_KOREAN_DISPLAY_SPACING = {
+    'GVG_059': [('천상의_보호막', '천상의 보호막')],
+    'GVG_078': [('예비_부품', '예비 부품')],
+    'GVG_082': [('예비_부품', '예비 부품')],
+    'GVG_115': [('죽음의_메아리', '죽음의 메아리'), ('예비_부품', '예비 부품')],
+    'GVG_116': [('오염된_노움', '오염된 노움')],
+    'GVG_118': [('힘센_바위턱트로그', '힘센 바위턱트로그')],
+}
+
 
 
 def source_bytes(path):
@@ -41,8 +50,14 @@ def main(fixture=None):
     assert len(by_id)==143 and len({c['dbfId'] for c in catalog['cards']})==143
     original=json.loads(source_bytes('cards.json'))
     original_history=json.loads(source_bytes('history.json'))['cards']
-    assert (ROOT/'cards.json').read_bytes()==source_bytes('cards.json'),'Current catalog byte drift'
-    assert json_equal(catalog,original)
+    # The six source-preserving one-time Korean text spacing corrections
+    # are permitted at the old catalog boundary, but nothing else.
+    approved=copy.deepcopy(original)
+    for row in approved['cards']:
+        for old,new in APPROVED_KOREAN_DISPLAY_SPACING.get(row['id'],[]):
+            assert old in row['text'],row['id']
+            row['text']=row['text'].replace(old,new)
+    assert json_equal(catalog,approved),'Current catalog drift beyond approved text spacing'
     original_by_id={c['id']:c for c in original['cards']}
     assets=set(subprocess.check_output(['git','ls-tree','-r','--name-only',SOURCE,'--','art','golden'],cwd=ROOT,text=True).splitlines())
     for asset in assets:assert (ROOT/asset).read_bytes()==source_bytes(asset),asset
@@ -80,7 +95,11 @@ def main(fixture=None):
                 # Old PHP does not apply races; preserve its existing current
                 # array behavior. The corrected race string is whitelisted.
                 corrected_cases+=1
-            # Presence too, not just values; no unrelated exceptions.
+            # Original history is frozen before the approved Korean spelling
+            # change; preserve all behavior and normalize only these six IDs.
+            for old,new in APPROVED_KOREAN_DISPLAY_SPACING.get(cid,[]):
+                if old in before.get('text',''):
+                    before['text']=before['text'].replace(old,new)
             assert json_equal(actual,before),(cid,day,'old behavior drift',actual,before)
             assert actual['id']==cid and actual['dbfId']==current['dbfId']
             cases.append({'id':cid,'dbfId':current['dbfId'],'date':day,
@@ -88,7 +107,7 @@ def main(fixture=None):
     assert (ROOT/'history.json').stat().st_size<=524288
     assert 'fetch-depth: 0' in (ROOT/'.github/workflows/normalize-card-history.yml').read_text()
     report={'result':'pass','sourceCommit':SOURCE,'oldPluginBase':'78ce6fdc4e70f689880a70d6f22aa77a6c75e337',
-            'currentCards':143,'currentCatalogueByteIdentical':True,
+            'currentCards':143,'currentCatalogueByteIdentical':False,'approvedDisplayOnlySpacingIDs':sorted(APPROVED_KOREAN_DISPLAY_SPACING),
             'legacyDateCases':len(cases),'artURLChecks':art_checks,'preservedAssetFiles':len(assets),
             'missingAssets':0,'rootHistoryBytes':(ROOT/'history.json').stat().st_size,
             'preciseHistoryBytes':(ROOT/'history-date.json').stat().st_size,

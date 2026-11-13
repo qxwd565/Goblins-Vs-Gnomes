@@ -10,6 +10,15 @@ from date_schema import (SPECS, REMOVE, apply, delta, fold, load, put, project,
 ROOT=Path(__file__).resolve().parents[1]
 ABILITY_RELEASE=load(ROOT/"tools/gvg-mechanics-evidence.json")["builds"][0]["cards"]
 SOURCE='0149620ba64f983ef09e715452d7581e3870b5fb'
+APPROVED_KOREAN_DISPLAY_SPACING = {
+    'GVG_059': [('천상의_보호막', '천상의 보호막')],
+    'GVG_078': [('예비_부품', '예비 부품')],
+    'GVG_082': [('예비_부품', '예비 부품')],
+    'GVG_115': [('죽음의_메아리', '죽음의 메아리'), ('예비_부품', '예비 부품')],
+    'GVG_116': [('오염된_노움', '오염된 노움')],
+    'GVG_118': [('힘센_바위턱트로그', '힘센 바위턱트로그')],
+}
+
 
 
 def require_source_commit(root, commit):
@@ -70,6 +79,11 @@ def independent_expected(document, day):
     if raw['id'] in transitions:
         boundary,value=transitions[raw['id']]
         if day is None or day>=boundary:result['mechanics']=value
+    # Only the separately approved one-time Korean orthographic repair is
+    # reflected in canonical projections; originalSource stays untouched.
+    for old,new in APPROVED_KOREAN_DISPLAY_SPACING.get(raw['id'],[]):
+        if old in result.get('text',''):
+            result['text']=result['text'].replace(old,new)
     return result
 
 

@@ -6,6 +6,15 @@ import copy,hashlib,importlib.util,json,re,subprocess,sys
 R=Path(__file__).resolve().parents[1]
 def load(p):return json.loads((R/p).read_text())
 def digest(x):return hashlib.sha256(json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+APPROVED_KOREAN_DISPLAY_SPACING = {
+    'GVG_059': [('천상의_보호막', '천상의 보호막')],
+    'GVG_078': [('예비_부품', '예비 부품')],
+    'GVG_082': [('예비_부품', '예비 부품')],
+    'GVG_115': [('죽음의_메아리', '죽음의 메아리'), ('예비_부품', '예비 부품')],
+    'GVG_116': [('오염된_노움', '오염된 노움')],
+    'GVG_118': [('힘센_바위턱트로그', '힘센 바위턱트로그')],
+}
+
 spec=importlib.util.spec_from_file_location('builder',R/'tools/wrapper_api_reference.py');B=importlib.util.module_from_spec(spec);spec.loader.exec_module(B)
 fixtures=load('tools/gvg-current-fixtures.json')['cards'];obs=load('tools/gvg-client-numeric.json')['cards']
 current={c['id']:c for c in load('cards.json')['cards']};render={c['id']:c for c in load('render.json')['cards']};legacy=load('history.json')['cards']
@@ -65,7 +74,13 @@ for cid,doc in docs.items():
  assert digest({k:c.get(k) for k in ('nativeTags','nativeRawText')})==f['nativeSourceHash'],cid
  assert digest(current[cid].get('nativeTags'))==f['currentNativeTagsHash'],cid
  actual=copy.deepcopy(current[cid]);actual.pop('history',None)
- assert digest(actual)==f['expectedNormalizedCurrentHash'],('unexpected current semantic change',cid)
+ # Pinned fixture predates a separate approved six-card display text repair.
+ # Reverse only the approved spelling so any other semantic change is rejected.
+ prior=copy.deepcopy(actual)
+ for old,new in APPROVED_KOREAN_DISPLAY_SPACING.get(cid,[]):
+  assert new in prior['text'] and old not in prior['text'],cid
+  prior['text']=prior['text'].replace(new,old)
+ assert digest(prior)==f['expectedNormalizedCurrentHash'],('unexpected current semantic change',cid)
  for card in (c,current[cid],render[cid]):display(card)
  # Latest raw names and text agree after established client-control formatting.
  latest=doc['historicalTextObservations'][-1]
