@@ -28,6 +28,8 @@ jobs:
           python3 tools/build-api.py
       - name: Validate GvG release and patch history
         run: python3 tools/test-gvg-history.py
+      - name: Validate first real Arena availability, constructed release, and all 20 token parent IDs
+        run: python3 tools/test-gvg-first-use.py
       - name: Validate date schema, source evidence, compatibility and reproducibility
         run: |
           python3 tools/test-date-schema.py
