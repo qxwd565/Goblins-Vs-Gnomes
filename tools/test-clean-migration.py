@@ -10,9 +10,13 @@ with tempfile.TemporaryDirectory(prefix='gvg-date-clean-',dir='/tmp') as tmp:
  subprocess.run(['git','-C',str(root),'checkout','--quiet','--detach',m.SOURCE],check=True)
  shutil.copytree(r/'tools',root/'tools',dirs_exist_ok=True)
  subprocess.run([sys.executable,str(root/'tools/migrate-date-schema.py')],check=True,capture_output=True)
- # Apply the sole approved Piloted Shredder display chronology correction
- # after reproducing the pinned source. No unrelated source file is replaced.
- shutil.copy2(r/'data/GVG_096.json',root/'data/GVG_096.json')
+ # Replay only the previously approved corrections after reconstituting
+ # the pinned original. The raw migration sidecars remain from the pristine
+ # source, while its approved current-only catalog and per-ID display fixes
+ # must match the shipped source. Never replace evidence or every data file.
+ for cid in ['GVG_096', *m.APPROVED_KOREAN_DISPLAY_SPACING]:
+  shutil.copy2(r/'data'/(cid+'.json'),root/'data'/(cid+'.json'))
+ shutil.copy2(r/'cards.json',root/'cards.json')
  subprocess.run([sys.executable,str(root/'tools/build-api.py')],check=True,capture_output=True)
  files=[*(r/'data').glob('*.json'),*(r/'metadata').glob('*.json'),*[r/f for f in ['cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json']]]
  diff=[str(p.relative_to(r)) for p in files if p.read_bytes()!=(root/p.relative_to(r)).read_bytes()]
