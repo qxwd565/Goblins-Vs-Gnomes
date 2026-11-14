@@ -16,7 +16,6 @@
     "attack": 9,
     "health": 9,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": []
   }
 }

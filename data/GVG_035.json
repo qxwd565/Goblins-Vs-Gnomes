@@ -16,7 +16,6 @@
     "attack": 9,
     "health": 7,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "DEATHRATTLE"
     ]

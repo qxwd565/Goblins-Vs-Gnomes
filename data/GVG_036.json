@@ -12,7 +12,6 @@
     "attack": 3,
     "durability": 2,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "DEATHRATTLE"
     ]

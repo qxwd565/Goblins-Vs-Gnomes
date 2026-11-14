@@ -16,7 +16,6 @@
     "attack": 7,
     "health": 6,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": []
   },
   "2023-02-15": {

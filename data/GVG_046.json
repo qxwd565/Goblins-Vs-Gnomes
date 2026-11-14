@@ -16,7 +16,6 @@
     "attack": 2,
     "health": 6,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "TAUNT",
       "BATTLECRY"

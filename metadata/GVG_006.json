@@ -332,5 +332,12 @@
       ],
       "evidence": "29.0 balance and Wild unban."
     }
-  ]
+  ],
+  "normalization": {
+    "datedExcludedFields": {
+      "2014-12-10": {
+        "chooseOne": false
+      }
+    }
+  }
 }

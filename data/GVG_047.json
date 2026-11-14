@@ -10,7 +10,6 @@
     "rarity": "EPIC",
     "cost": 4,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "COMBO"
     ]

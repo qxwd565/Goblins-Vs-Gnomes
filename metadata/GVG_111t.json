@@ -317,5 +317,12 @@
       "unresolved": "Exact Korean effective date and token rarity/display semantics. No invented dated change. Initial specification remains incomplete.",
       "source": "tools/gvg-mechanics-evidence.json"
     }
+  },
+  "normalization": {
+    "datedExcludedFields": {
+      "2014-12-10": {
+        "chooseOne": false
+      }
+    }
   }
 }

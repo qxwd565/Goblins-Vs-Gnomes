@@ -16,7 +16,6 @@
     "attack": 1,
     "health": 4,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": []
   },
   "2017-08-09": {
